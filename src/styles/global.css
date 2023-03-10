@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h1{
+    color: rgb(101, 89, 9);
+}
+
 :root {
     --white:#fff;
     --background: #F2F3F5;

@@ -35,7 +35,7 @@ export function About(){
       <>
            
         <div className={styles1.titleAbout}>
-          <strong>NOS CONHEÇA MELHOR</strong>
+          <h1>NOS CONHEÇA MELHOR</h1>
           
         </div>
 

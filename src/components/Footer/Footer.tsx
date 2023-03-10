@@ -10,7 +10,7 @@ export function Footer() {
     return(
         <div className={styles.containerFooter}>
             <div className={styles.controlFooter}>
-                   <strong className={styles.titleOne}>- MENU</strong>
+                   <h1 className={styles.titleOne}>- MENU</h1>
                    <div className={styles.containerMenu}>
                    <strong>HOME</strong>
                    <strong>QUEM SOMOS</strong>
@@ -22,7 +22,7 @@ export function Footer() {
 
             </div>
             <div className={styles.controlFooter}>
-                <strong className={styles.title}>- QUEM SOMOS</strong>
+                <h1 className={styles.title}>- QUEM SOMOS</h1>
                    <div className={styles.containerAbout}>
                         <HouseLine  size={24} className={styles.iconAbout}/>
                         <strong className={styles.aboutText}>ENDEREÇO:</strong>
@@ -41,7 +41,7 @@ export function Footer() {
                    
             </div>
             <div className={styles.controlFooter}>
-                   <strong className={styles.title}>- REDES SOCIAIS</strong>
+                   <h1 className={styles.title}>- REDES SOCIAIS</h1>
                   <div className={styles.controlAbout}>
                   <div className={styles.containerAbout}>
                         <Image src={insta} alt='' className={styles.iconInsta}/><strong className={styles.redeSocialText}> @rtodonto.clinica</strong>

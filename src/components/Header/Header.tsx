@@ -17,11 +17,11 @@ export function Header(){
             </div>
             <div className={styles.containerTwo}>
                 <div>
-                    <a href=''><strong>SERVIÇOS</strong></a>
-                     <a href=''><strong>QUEM SOMOS</strong></a>
-                     <a href=''><strong>POSTS</strong></a>
-                     <a href=''><strong>VIDEOS</strong></a>
-                     <a href=''><strong>CONTATO</strong></a>
+                    <a href='#servicos'><strong>SERVIÇOS</strong></a>
+                     <a href='#about'><strong>QUEM SOMOS</strong></a>
+                     <a href='#posts'><strong>POSTS</strong></a>
+                     <a href='#videos'><strong>VIDEOS</strong></a>
+                     <a href='#contatos'><strong>CONTATO</strong></a>
                 </div>
             </div>
            </div>

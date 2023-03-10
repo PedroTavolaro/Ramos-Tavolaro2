@@ -13,7 +13,7 @@ export function Ebook(){
     return(
         <div className={styles.containerEbook}>
             <div className={styles.title}>
-                <strong>E-BOOKS</strong>
+                <h1>E-BOOKS</h1>
             </div>
 
             <div className={styles.containerEbookScroll}>

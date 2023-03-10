@@ -91,7 +91,7 @@ export const Videos: React.FC<ScrollContainerProps> = ({
             <Image src={vector} alt="" className={styles.imgAboutProfile} />
           </div>
         <div className={styles.title}>
-          <strong>VIDEOS</strong>
+          <h1>VIDEOS</h1>
         </div>
 
         {verificationVideo ? (
@@ -312,7 +312,7 @@ export const Videos: React.FC<ScrollContainerProps> = ({
 
       <div className={styles.containerVideosTwo}>
         <div className={styles.title}>
-          <strong>RECOMENDAÇÕES</strong>
+          <h1>RECOMENDAÇÕES</h1>
         </div>
 
         <div className={styles.recommendationArea}>

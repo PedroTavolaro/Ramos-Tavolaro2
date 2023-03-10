@@ -20,7 +20,7 @@ import serviceImgBg from "../../assets/about/VectorDente.png";
 export function Services() {
   return (
     <div className={styles.containerService}>
-      <strong className={styles.title}>CONHEÇA NOSSOS SERVIÇOS</strong>
+      <h1 className={styles.title}>CONHEÇA NOSSOS SERVIÇOS</h1>
 
       <div className={styles.controlBackground}>
         <Image

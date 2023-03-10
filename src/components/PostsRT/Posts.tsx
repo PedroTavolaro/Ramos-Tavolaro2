@@ -50,7 +50,7 @@ export const Posts: React.FC<ScrollContainerProps> = ({contentWidth, children}) 
 
         <>
              <div className={styles.containerTitle}>
-             <strong>Posts</strong>
+             <h1>Posts</h1>
             </div>
         
         <div
