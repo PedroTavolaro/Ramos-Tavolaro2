@@ -1,0 +1,130 @@
+
+.containerService{
+    text-align: center;
+    
+}
+
+.title{
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.controlBackground{
+    height: 0;
+}
+.imgBackgroundServices {
+    margin-top: -4rem;
+    width: 80%;
+    height: 60rem;
+}
+
+
+.services {
+   display: grid;
+   grid-template-columns: 24.4% 24.4% 24.4% 24.4%;
+   text-align: center;
+   justify-content: center;
+   margin-top: 2rem;
+   
+}
+
+.controlServices{
+    width: 18.5rem;
+    height: 15.7rem;
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+}
+
+
+.controlImg {
+    height: 15.5rem;
+    box-shadow: rgba(15, 110, 187, 0.812) -1.5px 0px 12px 3px;
+}
+
+
+
+.imgService {
+    width: 100%;
+    height: 15.5rem;
+    margin-top: 0rem;
+}
+
+
+.controlTextTwo{
+    /* background-color: rgba(15, 110, 187, 0.412); */
+    height: 4.9rem;
+    width: 100%;
+    margin-top: -5rem;
+    position: relative;
+}
+
+.space{
+    height: 0.5rem;
+}
+.text {
+    font-size: 1.8rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    
+    color: white;   
+}
+
+
+
+@media screen and (max-width: 1080px){
+
+    .title{
+        font-size: 1.6rem;
+    }
+
+    .imgBackgroundServices {
+        width: 100%;  
+    }
+
+    .services {
+        grid-template-columns:  48% 48%;
+        justify-content: left;
+     }
+
+    .controlServices{
+    width: 13rem;
+    height: 12rem;
+    margin-left: 0.8rem;
+    }
+
+     .controlImg {
+        height: 12rem;
+        width: 95%;
+    }
+
+    .text {
+        font-size: 1.1rem;
+    }
+
+     .imgService {
+        width: 100%;
+        height: 12rem;
+        margin-top: 0rem;
+    }
+   
+
+    .controlText{
+        height: 3rem;
+        width: 100%;
+        margin-top: -3.2rem;
+    }
+
+    .controlTextTwo{
+        height: 0rem;
+        
+    }
+
+    .space{
+        height: 1.8rem;
+    }
+}
+
+
+
+
+

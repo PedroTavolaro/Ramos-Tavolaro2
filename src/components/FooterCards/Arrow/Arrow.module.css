@@ -1,0 +1,68 @@
+.containerSeta{
+    margin-top: 1rem;
+   margin-left: 4%;
+   animation: seta;
+   animation-duration: 2s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+}
+
+@keyframes seta {
+   0%{
+   margin-left: 5%
+   }
+ 
+   100%{
+   margin-left: 10%
+   }
+}
+
+.iconSeta{
+   height: 2rem;
+   width: 4rem;
+}  
+
+
+@media screen and (max-width: 1080px){
+    
+   .containerTitle strong{
+       font-size: 1.8rem;
+   }
+   
+   .containerTitle{
+       margin-top: 5rem;
+   }
+
+   .scrollContainer{
+    margin-left: 1rem;
+     height: 22rem; /* Defina a altura que desejar */
+  
+     }
+   
+   .controlPosts {
+       display: flex;
+   }
+   
+   .controlPostUnit{
+       margin-left: 0rem;
+       margin-right: 2rem;
+       height: 20rem;
+       width: 18rem;
+   }
+   
+   .controlPosts div:nth-child(1){
+       margin-left: 0rem;
+   }
+
+   .imgPosts {
+       width: 19rem;
+       height: 100%;
+       
+   }
+
+   .iconSeta{
+       height: 1rem;
+       width: 2rem;
+   }
+}

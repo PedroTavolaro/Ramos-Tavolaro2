@@ -1,0 +1,23 @@
+.controlAbout{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+}
+
+.containerAbout{
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+    margin-left: 4%;
+}
+.containerAbout div {
+    display: flex;
+    align-items: center;
+}
+
+.iconInsta{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+}

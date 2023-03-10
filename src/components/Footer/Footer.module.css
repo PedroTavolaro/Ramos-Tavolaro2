@@ -1,0 +1,145 @@
+.containerFooter {
+    height: 25rem;
+    
+    margin-top: 6rem;
+    background: var(--blue-standard);
+    display: flex;
+}
+
+.controlFooter {
+    
+    width: 33.3%;
+    margin-top: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.titleOne{
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+.containerMenu{
+    display: grid;
+    line-height: 2.4;
+    margin-left: 4rem;
+    width: 15rem;
+    margin-top: 1.3rem;
+}
+
+.containerAbout{
+    margin-top: 1rem;
+    display: flex;
+    line-height: 3;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+.iconAbout{
+    margin-right: 0.5rem;
+}
+
+.iconAbout:nth-child(2){
+    
+    margin-right: 0.5rem;
+}
+
+.aboutText {
+    margin-top:0rem;
+}
+
+.containerAbout p {
+   
+    margin-left: 0.5rem;
+}
+
+.redeSocialText{
+    margin-top: 0rem;
+}
+
+.iconInsta{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 1080px){
+    .containerFooter {
+        height: 29rem;
+        margin-top: 4rem;
+        display: grid;
+        gap: 0rem;
+    }
+    
+    .controlFooter {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .controlFooter:nth-child(3){
+        
+        height: 6rem;
+    }
+    
+    .title {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+    
+    .titleOne{
+        font-size: 1.8rem;
+        margin-left: 1rem;
+    }
+    
+    .containerMenu{
+        display: grid;
+        grid-template-columns: 40% 55% 40%;
+        margin-left: 1rem;
+        margin-top: 1rem;    
+    }
+
+    .containerMenu strong {
+        font-size: 0.8rem;
+    }
+
+    .controlAbout{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+    
+    .containerAbout{
+        line-height: 2;
+    }
+    
+    .iconAbout{
+     
+    }
+    
+    .iconAbout:nth-child(2){
+        
+      
+    }
+    
+    .aboutText {
+ 
+    }
+    
+    .containerAbout p {
+        font-size: 0.8rem;
+    }
+    
+    .redeSocialText{
+        font-size: 0.8rem;
+  
+    }
+    
+    .iconInsta{
+        height: 1.7rem;
+        width: 1.7rem;
+        margin-right: 0.5rem;
+    }
+}

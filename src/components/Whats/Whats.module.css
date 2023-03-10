@@ -1,0 +1,97 @@
+.whatsContainer {
+   
+    height: 2rem;
+}
+
+.whatsLogo {
+    width: 4.2rem;
+    height: 4.2rem;
+    margin-left: 6rem;
+    margin-top: 24.5rem;
+    position: fixed;
+    margin-left: 93%;
+}
+
+
+.whatsText{
+    background: green;
+    width: 12rem;
+    margin-top: 22rem;
+    position: fixed;
+    margin-left: 85%;
+    border-radius: 6%;
+    height: 1.8rem;
+    text-align: center;
+    animation: textWhats;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    transition-timing-function: ease;
+    color: white;
+    font-weight: 800;
+    padding: 0.4rem;
+    font-size: 0.9rem;
+    opacity: 0;
+}
+
+@keyframes textWhats {
+    0% {
+        opacity: 0;
+    }
+  
+    50% {
+        opacity: 1;
+    }
+    
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .whatsLogo {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-top:40rem;
+        position: fixed;
+        margin-left: 90%;
+    }
+
+    .whatsText{
+       
+        width: 8rem;
+        margin-top: 38.5rem;
+        margin-left: 67%;
+        border-radius: 6%;
+        height: 1.2rem;
+        text-align: center;
+        animation: textWhats;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        animation-delay: 1s;
+        animation-direction: alternate;
+        transition-timing-function: ease;
+        color: white;
+        font-weight: 800;
+        padding: 0.2rem;
+        font-size: 0.7rem;
+        opacity: 0;
+    }
+
+    @keyframes textWhats {
+        0% {
+            opacity: 0;
+        }
+      
+        50% {
+            opacity: 1;
+        }
+        
+        100% {
+            opacity: 0;
+        }
+    }
+    
+
+}

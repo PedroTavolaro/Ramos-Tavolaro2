@@ -1,0 +1,110 @@
+.presentation{
+    width: 100%;
+    height: 32rem;
+}
+
+.bannerPresentation{
+    padding: 0rem 0rem 0rem 0rem;
+    height: 32rem;
+}
+
+.controlVideo{
+margin-left: 35%;
+width: 54.5rem;
+}
+
+.controlVideo video{
+    width: 100%;
+    height: 30.3rem;
+    margin-top: -3.6%;
+}
+
+.textPresentation {
+    margin-top: -2rem;
+    position: absolute;
+    height: 30.4rem;
+    width: 40rem;
+    background-image: linear-gradient(
+        /* to left */  /* to top left */
+        /* rgba(39, 39, 39, 1) */
+        
+        90deg,
+        black 64%,
+        transparent        
+    );
+
+
+}
+
+.controlImgPresentation{
+    height: 0rem;
+    position: relative;
+}
+
+.logo{
+    width: 22rem;
+    height: 6rem;
+    margin-top: -0.5rem;
+    margin-left: 6rem;
+}
+
+.imgPresentation{
+    width: 34.5rem;
+    height: 30.6rem;
+    margin-top: -2.06rem;
+    
+}
+
+.titlePresentation:nth-child(1) {
+    color: #C9B608;
+    font-size: 5rem;
+}
+
+.titlePresentation{
+    color: white;
+    font-size: 2.5rem;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 1080px){
+
+    .presentation{
+        height: 15rem;
+    }
+    
+    .bannerPresentation{
+        height: 0rem;
+    }
+
+    .controlVideo{
+    margin-left: 1%;
+    height: 15rem;
+    width: 100%;
+    }
+
+    .controlVideo video{
+        width: 100%;
+        height: 100%;
+        margin-top: -2.4rem;
+    }
+
+    .textPresentation {
+        height: 14.65rem;
+        background-image: linear-gradient(
+        /* to left */  /* to top left */
+         
+        90deg,
+        black 23.5%,
+        transparent
+    );
+    }
+
+   
+    .imgPresentation{
+        width: 0rem;
+        height: 0rem;
+        margin-top: -2rem;  
+        margin-left: -1.4rem;
+    }
+
+}

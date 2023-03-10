@@ -1,0 +1,67 @@
+.containerMaster{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    margin-bottom: 0.4rem;
+}
+
+.whats{
+    position: relative;
+}
+
+.body{
+    
+}
+
+.controlWhats{
+ 
+  
+}
+
+.controlService{
+
+}
+
+
+.containerLocation{
+    margin-top: 4rem;
+    text-align:center;
+}
+
+.containerLocation strong{
+    font-size: 2.5rem;
+}
+
+.locationArea{
+    margin-top: 4rem;
+}
+
+.imgLocation{
+    width: 80%;
+    height: 30rem;
+}
+
+@media screen and (max-width: 1080px){
+    
+    .containerLocation{
+        margin-top: 5rem;
+    }
+
+    .containerLocation strong{
+        font-size: 1.8rem;
+    }
+
+    .locationArea{
+        margin-top: 2rem;
+    }
+
+    .imgLocation{
+        width: 90%;
+        height: 20rem;
+    }
+    
+}
+

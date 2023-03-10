@@ -1,0 +1,385 @@
+.titleAbout{
+    text-align: center;
+    margin-top: 5rem;
+    position: relative;
+    
+}
+
+.titleAbout strong{
+    font-size: 2.5rem;
+}
+
+
+.teacher {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    width: 35%;
+    margin-left: 32%;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 2px 3px 8px 4px rgba(20, 82, 156, 1);
+    position: relative;
+    margin-bottom: 0rem;
+}
+
+.descriptionTeacherContainer{
+    margin-top: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.descriptionTeacherText{
+    display: flex;
+    line-height: 1.25;
+    font-size: 0.875rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.descriptionTeacherIcon{
+    margin-left: 0.8rem;
+}
+
+
+.descriptionTeacherName{
+    width: 11.5rem;
+    font-weight: 700;
+}
+
+.descriptionTeacherOffice{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    border-radius: 0.25rem;
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-width: 1px;
+    font-weight: 700;
+    margin-left: 1.75rem;
+    margin-right: 0.25rem;
+
+}
+
+.descriptionTeacherImageContainer{
+    
+}
+
+.descriptionTeacherImageSpace{
+    width: 44%
+}
+
+.descriptionTeacherImage{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 9999px;
+    border-width: 2px;
+    border-color: rgb(129 216 247);
+    margin-left: 0.8rem;
+}
+
+.textAbout{
+    margin-left: 0.8rem;
+}
+
+.textAbout strong{
+    margin-top: 0rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.titleAboutProfile{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+
+
+.controlImg{
+    height: 1rem;
+}
+
+.imgAboutProfile {
+    margin-top: -47rem;
+    width: 100%;
+    height: 79.8rem;
+}
+
+.controlText{
+    width: 80%;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 0rem;
+}
+
+.profile1 {
+    margin-top: -15rem;
+    width: 28rem;
+    height: 30rem;
+}
+
+.descriptionProfile{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    width: 99%;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.descriptionTeacherContainerTwo{
+    display: flex;
+}
+
+.controlImgTwo{
+    height: 1rem;
+}
+
+.imgAboutProfileTwo {
+    margin-top: -10rem;
+    width: 100%;
+    margin-left: 0%;
+    height: 42rem;
+}
+
+.controlTextTwo{
+    width: 82%;
+    display: flex;
+    margin-left: 16%;
+   margin-top: 0rem;
+}
+
+.descriptionProfileTwo{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    width: 99%;
+    font-weight: 800;
+    margin-bottom: 4rem;
+    margin-right: 1rem;
+}
+
+.teacherTwo {
+    display: flex;
+    gap: 0.5rem;
+    margin-top:0rem;
+    width: 35%;
+    margin-left: 25%;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 2px 3px 8px 4px rgba(20, 82, 156, 1);
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+ 
+
+.descriptionAbout{
+ 
+}
+
+.profileTwo{
+    
+    margin-top: -14rem;
+    width: 28rem;
+    height: 30rem;
+    margin-left: 0rem;
+}
+
+.controlImgProfile{
+   
+  
+}
+
+@media screen and (max-width: 1080px){
+
+    .titleAbout strong{
+        font-size: 1.8rem;
+    }
+
+
+    .descriptionAbout{
+     
+    }
+    
+    .controlImg{
+        height: 1rem;
+    }
+    
+    .controlText{
+        width: 90%;
+        margin-left: 1rem;
+        flex-direction: column;
+    }
+    
+    .imgAboutProfile {
+    margin-top: -37rem;
+    height: 80rem;
+    width: 102%;
+    margin-left: -3%;
+    }
+
+    .teacher {
+        display: flex;
+        gap: 0.5rem;
+        margin-top:6.5rem;
+        width: 95%;
+        margin-left: 0.6rem;
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+        margin-bottom: 1.5rem;
+    }
+
+    .descriptionTeacherContainer{
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .descriptionTeacherText{
+        display: flex;
+        line-height: 1.25;
+        font-size: 0.875rem;
+        font-weight: 500;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .descriptionTeacherIcon{
+        margin-left: 0.8rem;
+    }
+
+
+    .descriptionTeacherName{
+        width: 11.5rem;
+        font-weight: 700;
+    }
+
+    .descriptionTeacherOffice{
+        font-size: 0.75rem;
+        line-height: 1rem;
+        border-radius: 0.25rem;
+        padding-top: 0.125rem;
+        padding-bottom: 0.125rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        border-width: 1px;
+        font-weight: 700;
+        margin-left: 1.75rem;
+        margin-right: 0.25rem;
+
+    }
+
+    .descriptionTeacherImageContainer{
+        
+    }
+
+    .descriptionTeacherImageSpace{
+        width: 44%
+    }
+
+    .descriptionTeacherImage{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 9999px;
+        border-width: 2px;
+        border-color: rgb(129 216 247);
+        margin-left: 0.8rem;
+    }
+
+    .textAbout{
+        margin-left: 0.8rem;
+    }
+
+    .textAbout strong{
+        margin-top: 0rem;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .titleAboutProfile{
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .descriptionProfile{
+        font-size: 1.1rem;   
+        width: 100%;
+        font-weight: 800;
+        margin-bottom: 1.8rem;
+        margin-top: -31.5rem;
+        margin-left: -0rem;
+    }
+
+    .profile1{
+        height: 12rem;
+        width: 12rem;
+        margin-left: 48%;
+        margin-top: 17.5rem;
+    }
+
+    .descriptionTeacherContainerTwo{
+        display: flex;
+        
+    }
+
+    .controlImgTwo{
+        height: 1rem;
+    }
+    
+    .imgAboutProfileTwo {
+        margin-top: -10rem;
+        width: 100%;
+        margin-left: 0%;
+        height: 47rem;
+    }
+    
+    .controlTextTwo{
+        width: 90%;
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+
+    .descriptionProfileTwo{
+        font-size: 1.1rem;   
+        width: 100%;
+        font-weight: 800;
+        margin-bottom: 1.8rem;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .teacherTwo {
+        display: flex;
+        gap: 0.5rem;
+        margin-top:0rem;
+        width: 94%;
+        margin-left: 0.6rem;
+        flex-direction: column;
+        text-align: left;
+        position: relative;
+        margin-bottom: 1rem;
+    }
+    
+    .controlTextTwo strong{
+        margin-top: 0rem;
+        font-size: 1rem;
+        margin-right: 0rem;
+    }
+    
+    .profileTwo{
+        margin-top: -4rem;
+        width: 12rem;
+        height: 12rem;
+        margin-left: 54%;
+    }
+    
+    .controlImgProfile{
+        
+    }
+
+}
