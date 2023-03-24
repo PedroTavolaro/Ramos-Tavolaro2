@@ -9,6 +9,7 @@ import logoteste from '../../assets/header/testelogo.png';
 
 export function Header(){
     return (
+        
         <div className={styles.container}> 
            <div className={styles.header}>
             <div className={styles.containerOne}>
@@ -17,9 +18,11 @@ export function Header(){
             </div>
             <div className={styles.containerTwo}>
                 <div>
-                    <a href='#servicos'><strong>SERVIÇOS</strong></a>
-                     <a href='#about'><strong>QUEM SOMOS</strong></a>
+                     <a href='#ebooks'><strong>INÍCIO</strong></a>
+                     <a href='#servicos'><strong>SERVIÇOS</strong></a>
+                     <a href='#about'><strong className={styles.about}>QUEM SOMOS</strong></a>
                      <a href='#posts'><strong>POSTS</strong></a>
+                     <a href='#ebooks'><strong>EBOOKS</strong></a>
                      <a href='#videos'><strong>VIDEOS</strong></a>
                      <a href='#contatos'><strong>CONTATO</strong></a>
                 </div>

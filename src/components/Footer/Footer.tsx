@@ -5,36 +5,38 @@ import youtube from '../../assets/contact/youtub.svg';
 
 import { DeviceMobile, Envelope, HouseLine} from 'phosphor-react'
 import Image from 'next/image';
+import Link from 'next/link';
 
 export function Footer() {
     return(
+     <div className={styles.bacgroundFooter}>
         <div className={styles.containerFooter}>
             <div className={styles.controlFooter}>
-                   <h1 className={styles.titleOne}>- MENU</h1>
+                   <h1 className={styles.title}>- MENU</h1>
                    <div className={styles.containerMenu}>
-                   <strong>HOME</strong>
-                   <strong>QUEM SOMOS</strong>
-                   <strong>SERVIÇOS</strong>
-                   <strong>POSTS</strong>
-                   <strong>VIDEOS</strong>
-                   <strong>RECOMENDAÇÕES</strong>
+                  <Link href='#header'> <strong>HOME</strong> </Link>
+                   <Link href='#servicos'> <strong>SERVIÇOS</strong> </Link>
+                   <Link href='#about'><strong>QUEM SOMOS</strong> </Link>
+                   <Link href='#posts'><strong>POSTS</strong> </Link>
+                   <Link href='#ebooks'><strong>EBOOKS</strong> </Link>
+                   <Link href='#videos'><strong>VIDEOS</strong> </Link>
                    </div>
 
             </div>
             <div className={styles.controlFooter}>
                 <h1 className={styles.title}>- QUEM SOMOS</h1>
                    <div className={styles.containerAbout}>
-                        <HouseLine  size={24} className={styles.iconAbout}/>
+                        <HouseLine className={styles.iconAbout}/>
                         <strong className={styles.aboutText}>ENDEREÇO:</strong>
                         <p>Av. Fernando Ferrari, 2921, Vitória, ES</p>
                    </div>
                    <div className={styles.containerAbout}>
-                        <Envelope  size={25} className={styles.iconAbout}/>
+                        <Envelope className={styles.iconAbout}/>
                         <strong className={styles.aboutText}> EMAIL:</strong>
                         <p>ramostavolaroodonto@outlook.com</p>
                    </div>
                    <div className={styles.containerAbout}>
-                        <DeviceMobile  size={24} className={styles.iconAbout}/>
+                        <DeviceMobile className={styles.iconAbout}/>
                         <strong className={styles.aboutText}> TELEFONES:</strong>
                         <p>(27) 997762910</p>
                    </div>
@@ -52,5 +54,6 @@ export function Footer() {
                   </div>
             </div>
         </div>
+     </div>
     )
 }

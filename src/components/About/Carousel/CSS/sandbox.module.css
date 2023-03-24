@@ -1,5 +1,5 @@
 .sandbox {
-    max-width: 90%;
+    max-width: 190rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -14,6 +14,25 @@
 
    
   }
+
+  @media screen and (max-width: 3280px){
+
+    .sandbox {
+      max-width: 100rem;
+      
+    }
+  }
+
+  
+  @media screen and (max-width: 1580px){
+
+    .sandbox {
+      max-width: 92%;
+      
+    }
+  }
+
+  
   
   @media screen and (max-width: 1080px){
 

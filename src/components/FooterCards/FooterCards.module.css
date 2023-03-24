@@ -1,3 +1,42 @@
+.controlFooterCard{
+    width: 100%;
+}
+
+.controlAbout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.controlArrow{
+    
+}
+
+.containerAbout{
+    margin-top: 3rem;
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+    margin-left: 4%;
+}
+.containerAbout div {
+    display: flex;
+    align-items: center;
+}
+
+.iconInsta{
+    height: 6rem;
+    width: 6rem;
+    margin-right: 0.5rem;
+    margin-left: 138rem;
+}
+
+.redeSocialText{
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 3280px){
 .controlAbout{
     display: flex;
     justify-content: space-between;
@@ -20,4 +59,59 @@
     height: 2rem;
     width: 2rem;
     margin-right: 0.5rem;
+    margin-left: 0rem;
 }
+}
+
+@media screen and (max-width: 1580px){
+    .controlAbout{
+        display: flex;
+        justify-content: space-between;
+        width: 92%;
+    }
+    
+    .containerAbout{
+        margin-top: 1rem;
+        display: flex;
+        margin-left: 1rem;
+        align-items: center;
+        margin-left: 4%;
+    }
+    .containerAbout div {
+        display: flex;
+        align-items: center;
+    }
+    
+    .iconInsta{
+        height: 2rem;
+        width: 2rem;
+        margin-right: 0.5rem;
+        margin-left: 0rem;
+    }
+    .redeSocialText{
+        font-size: 1.5rem;
+    }
+    }
+
+    @media screen and (max-width: 620px){
+        .controlAbout{
+            width: 98%;
+        }
+        
+        .containerAbout{
+            margin-top: 1rem;
+            margin-left: 0%;
+        }
+        .containerAbout div {
+        }
+        
+        .iconInsta{
+            height: 1.2rem;
+            width: 1.2rem;
+            margin-right: 0.5rem;
+            margin-left: 0rem;
+        }
+        .redeSocialText{
+            font-size: 0.9rem;
+        }
+        }

@@ -1,19 +1,24 @@
-.containerFooter {
-    height: 25rem;
-    
-    margin-top: 6rem;
+.bacgroundFooter{
     background: var(--blue-standard);
-    display: flex;
+    width: 100%;
 }
 
-.controlFooter {
-    
-    width: 33.3%;
-    margin-top: 2rem;
+.containerFooter {
+    height: 52rem;
+    margin-top: 8rem;
+    display: flex;
+    width: 190rem;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
 
 .title {
-    font-size: 2rem;
+    margin-top: 2rem;
+    font-size: 5rem;
     margin-left: 1rem;
 }
 
@@ -26,8 +31,21 @@
     display: grid;
     line-height: 2.4;
     margin-left: 4rem;
-    width: 15rem;
+    width: 35rem;
     margin-top: 1.3rem;
+}
+
+.containerMenu strong{
+    font-size: 3rem;
+}
+
+.controlAbout{
+    
+}
+
+.controlFooter {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .containerAbout{
@@ -43,60 +61,220 @@
 }
 
 .iconAbout:nth-child(2){
-    
     margin-right: 0.5rem;
 }
 
 .aboutText {
     margin-top:0rem;
+    font-size: 3rem;
 }
 
 .containerAbout p {
-   
+    margin-left: 0.5rem;
+    font-size: 3rem;
+}
+
+.redeSocialText{
+    margin-top: 0rem;
+    font-size: 3rem;
+}
+
+.iconInsta{
+    height: 6rem;
+    width: 6rem;
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 3280px){
+.containerFooter {
+    height: 25rem;
+    margin-top: 6rem;
+    width: 100%;
+}
+
+.title {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.titleOne{
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+.containerMenu{
+    line-height: 1.8;
+    margin-left: 4rem;
+    width: 24rem;
+    margin-top: 1rem;
+    
+}
+
+.containerMenu strong{
+    font-size: 1.6rem;
+}
+
+.controlFooter {
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.controlAbout{
+    width: 30rem;
+}
+
+.containerAbout{
+    
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    line-height: 2.5;
+    margin-left: 0rem;
+    align-items: center;
+}
+
+.iconAbout{
+    margin-right: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.iconAbout:nth-child(2){
+    margin-right: 0.5rem;
+}
+
+.aboutText {
+    font-size: 1.6rem;
+    margin-top:0rem;
+}
+
+.containerAbout p {
+    font-size: 1.4rem;
     margin-left: 0.5rem;
 }
 
 .redeSocialText{
     margin-top: 0rem;
+    font-size: 1.4rem;
 }
 
 .iconInsta{
-    height: 2rem;
-    width: 2rem;
+    height: 2.5rem;
+    width: 2.5rem;
     margin-right: 0.5rem;
 }
+}
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1580px){
     .containerFooter {
-        height: 29rem;
-        margin-top: 4rem;
+        height: 25rem;
+        margin-top: 6rem;
+        width: 100%;
+    }
+    
+    .title {
+        font-size: 2rem;
+        
+    }
+    
+    .titleOne{
+        font-size: 2rem;
+        
+    }
+    
+    .containerMenu{
+        line-height: 1.8;
+        margin-left: 1rem;
+        width: 15rem;
+        margin-top: 1rem;
+        
+    }
+    
+    .containerMenu strong{
+        font-size: 1.6rem;
+    }
+    
+    .controlFooter {
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+    .controlAbout{
+        width: 15rem;
+    }
+    
+    .containerAbout{
+        
+        margin-top: 1rem;
+        width: 100%;
+        display: flex;
+        line-height: 2.5;
+        margin-left: 0rem;
+        align-items: center;
+    }
+    
+    .iconAbout{
+        margin-right: 0.5rem;
+        font-size: 1.5rem;
+    }
+    
+    .iconAbout:nth-child(2){
+        margin-right: 0.5rem;
+    }
+    
+    .aboutText {
+        font-size: 1.2rem;
+        margin-top:0rem;
+    }
+    
+    .containerAbout p {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+    }
+    
+    .redeSocialText{
+        margin-top: 0rem;
+        font-size: 1.2rem;
+    }
+    
+    .iconInsta{
+        height: 2rem;
+        width: 2rem;
+        margin-right: 0.5rem;
+    }
+    }
+
+@media screen and (max-width: 620px){
+    .containerFooter {
+        height: 26rem;
+        margin-top: 1.5rem;
         display: grid;
         gap: 0rem;
     }
     
     .controlFooter {
         width: 100%;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
+        margin-left: 0rem;
+        
     }
     .controlFooter:nth-child(3){
         
-        height: 6rem;
+        height: 5rem;
     }
     
     .title {
-        font-size: 1.8rem;
-        margin-left: 1rem;
+        font-size: 1.2rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
     }
     
     .titleOne{
-        font-size: 1.8rem;
-        margin-left: 1rem;
+        font-size: 1rem;
+        margin-left: 0rem;
     }
     
     .containerMenu{
         display: grid;
         grid-template-columns: 40% 55% 40%;
-        margin-left: 1rem;
+        margin-left: 0rem;
         margin-top: 1rem;    
     }
 
@@ -112,7 +290,7 @@
     }
     
     .containerAbout{
-        line-height: 2;
+        line-height: 1;
     }
     
     .iconAbout{

@@ -10,31 +10,31 @@ export function Whats() {
     const [counter, setCounter] = useState(0);
     const [shouldAnimate, setShouldAnimate] = useState(false);
 
-        useEffect(() => {
+      useEffect(() => {
             const interval = setInterval(() => {
               console.log('This will be called every 2 seconds');
               setCounter((prevCounter) => prevCounter + 1);
               setShouldAnimate(true)
-
+  
               setTimeout(() => {
                 setShouldAnimate(false)
                 console.log('termino')
             }, 6000)
             }, 12000);
 
-           
+            
           
             return () => clearInterval(interval);
           }, []);
-    
+   
         return(
        
           <div className={styles.whatsContainer}>
             {shouldAnimate 
             ? 
-         <div className={styles.controlWhatsText}>
-              <p className={styles.whatsText}>Agende sua consulta</p>
-         </div>
+            <div className={styles.controlWhatsText}>
+                  <p className={styles.whatsText}><p className={styles.whatsTextText}>Agende sua consulta</p></p>
+            </div>
             : 
             <div>
              

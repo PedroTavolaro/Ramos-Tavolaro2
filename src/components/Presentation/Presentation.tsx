@@ -11,6 +11,7 @@ import socios from '../../assets/about/socios1.png';
 
 export function Presentation() {
     return(
+      <div className={styles.presentationControl}>
         <div className={styles.presentation}>
     
             <div className={styles.bannerPresentation}>
@@ -45,6 +46,7 @@ export function Presentation() {
               </div>
             </div>
 
+        </div>
         </div>
     )
 }

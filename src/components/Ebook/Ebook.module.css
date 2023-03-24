@@ -1,3 +1,119 @@
+    .containerEbook{
+        height: 62rem;
+    }
+    
+    .controlEbook {
+        display: flex;
+        height: 47rem;
+    }
+    
+    .backgroundEbook{
+        display: flex;
+        height: 24rem;
+        width: 50%;
+        border-radius: 1%;
+    }
+    
+    .title {
+        text-align: center;
+        margin-top: 6rem;
+    }
+    
+    .title h1 {
+        font-size: 5rem;
+    }
+    
+    .containerEbookScroll::-webkit-scrollbar-thumb{
+        border-radius: 6px;
+        background: linear-gradient(to top, #00ccff, #0059ff);
+        
+      }
+      .containerEbookScroll::-webkit-scrollbar{
+          top: 0;
+          right: 0;
+          height: 35px; 
+          background: rgba(8, 2, 65, 0.411);
+      }
+    
+    .containerEbookScroll{
+        margin-top: 2rem;
+        overflow-x: scroll;
+        width: 190rem;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #BFDDFF;
+    }
+    
+    .containerEbookScroll div {
+       
+    }
+    
+    .ebook{
+        height: 24.7rem;
+        margin-left: 2rem;
+    }
+    
+    .controlImgEbook{
+        height: 1rem;
+        
+    }
+    
+    .imgEbook{
+        height: 45rem;
+        margin-top: -0rem;
+        width: 50rem;
+        
+    }
+    
+    
+    .controlEbookDescription {
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+    
+    .logo{
+        width: 46rem;
+        height: 12rem;
+        margin-left: -0.7rem;
+    }
+    
+    .textEbook {
+        color: #C9B608;
+        font-size: 4rem;
+        margin-top: -0rem;   
+        line-height: 2.5;
+        margin-left: 0rem;
+    }
+    
+    .controlTextEbookDescription{
+        width: 70%;
+    }
+    
+    .textEbookDescription {
+        color: white;
+        font-size: 3.5rem;
+        line-height: 1.5;
+        width: 10rem;
+    }
+    
+    .viewEbook{
+        margin-top: -2.5rem;
+        margin-left: 37%;
+        position: relative;
+        height: 2rem;
+        text-align: center;
+    }
+    .viewEbook div{
+        height: 1.8rem;
+    }
+    
+    .textViewEbook {
+        color: white;
+        font-size: 3rem;
+    }
+
+@media screen and (max-width: 3280px){
+
 .containerEbook{
     height: 38rem;
 }
@@ -108,6 +224,8 @@
     font-size: 1.3rem;
 }
 
+}
+
 @media screen and (max-width: 1080px){
     
     .containerEbookScroll{
@@ -178,6 +296,89 @@
 
     .viewEbook{
         margin-top: 1rem;
+        margin-left: 32%;
+        height: 2rem;
+        
+    }
+    .viewEbook div{
+        height: 0rem;
+    }
+    
+    .textViewEbook {
+        font-size: 1rem;
+    }
+    
+
+}
+
+@media screen and (max-width: 620px){
+    
+    .containerEbookScroll{
+        height: 20rem;
+        margin-left: 0.8rem;
+    }
+    .controlEbook {
+        height: 18rem;
+    }
+
+    .backgroundEbook{
+        height: 18rem;
+    }
+    .title {
+        margin-top: 4rem;
+    }
+    
+    .title h1 {
+        font-size: 1.5rem;
+    }
+    
+    .ebook{
+        margin-left: 0.5rem;
+        width: 20rem;
+        height: 18rem;
+    }
+
+    .controlImgEbook{
+        height: 1rem;
+    }
+
+    .imgEbook{
+        height: 18rem;
+        margin-top: -0rem;
+        width: 19rem;
+    }
+
+    .controlEbookDescription{
+        margin-top: 0rem;
+        margin-left: 1.4rem;
+        
+    }
+
+    .logo{
+        width: 15.5rem;
+        height: 4rem;
+    }
+    
+
+    .textEbook{
+        margin-top: -0rem;
+        font-size: 1.9rem;
+        line-height: 2.5;
+        margin-left: -0.5rem;
+    }
+
+    .controlTextEbookDescription{
+        width: 70%;
+    }
+
+    .textEbookDescription{
+        font-size: 1.3rem;
+        line-height: 1.5;
+        width: 10rem;
+    }
+
+    .viewEbook{
+        margin-top: 0rem;
         margin-left: 32%;
         height: 2rem;
         

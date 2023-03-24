@@ -1,56 +1,45 @@
+.presentationControl{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .presentation{
     width: 100%;
-    height: 32rem;
+    height: 80rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .bannerPresentation{
     padding: 0rem 0rem 0rem 0rem;
-    height: 32rem;
+    height: 72rem;
 }
 
 .controlVideo{
-margin-left: 35%;
-width: 54.5rem;
+    
+    width: 135rem;
 }
 
 .controlVideo video{
     width: 100%;
-    height: 30.3rem;
-    margin-top: -3.6%;
+    height: auto;
+    margin-top: -1.35%;
+    margin-left: 23.5%;
 }
 
-.textPresentation {
-    margin-top: -2rem;
-    position: absolute;
-    height: 30.4rem;
-    width: 40rem;
-    background-image: linear-gradient(
-        /* to left */  /* to top left */
-        /* rgba(39, 39, 39, 1) */
-        
-        90deg,
-        black 64%,
-        transparent        
-    );
-
-
-}
 
 .controlImgPresentation{
     height: 0rem;
     position: relative;
+    margin-left: -88.5%;
 }
 
-.logo{
-    width: 22rem;
-    height: 6rem;
-    margin-top: -0.5rem;
-    margin-left: 6rem;
-}
 
 .imgPresentation{
-    width: 34.5rem;
-    height: 30.6rem;
+    width: 30%;
+    height: 77rem;
     margin-top: -2.06rem;
     
 }
@@ -66,10 +55,102 @@ width: 54.5rem;
     line-height: 1.6;
 }
 
+
+@media screen and (max-width: 3280px){
+
+    .presentationControl{
+    height: 40rem;
+    }
+    .presentation{
+        width: 100%;
+        height: 2rem;
+    }
+    
+    .bannerPresentation{
+        padding: 0rem 0rem 0rem 0rem;
+        height: 0rem;
+    }
+    
+    .controlVideo{
+        width: 61.6rem;
+    }
+    
+    .controlVideo video{
+        width: 100%;
+        height: auto;
+        margin-top: -1.35%;
+        margin-left: 23.5%;
+    }
+    
+    
+    .controlImgPresentation{
+        height: 0rem;
+        position: relative;
+        margin-left: -88.5%;
+    }
+    
+    
+    .imgPresentation{
+        width: 30%;
+        height: 35rem;
+        margin-top: -1.06rem;
+        
+    }
+}
+
+@media screen and (max-width: 1580px){
+
+    .presentationControl{
+    height: 30rem;
+    border: red 1px solid;
+    }
+    .presentation{
+        width: 100%;
+        height: 2rem;
+    }
+    
+    .bannerPresentation{
+        padding: 0rem 0rem 0rem 0rem;
+        height: 0rem;
+    }
+    
+    .controlVideo{
+        width: 65%;
+    }
+    
+    .controlVideo video{
+        width: 100%;
+        height: auto;
+        margin-top: -1.35%;
+        margin-left: 52%;
+    }
+    
+    
+    .controlImgPresentation{
+        height: 0rem;
+        position: relative;
+        margin-left: -62%;
+    }
+    
+    
+    .imgPresentation{
+        width: 28%;
+        height: 28.5rem;
+        margin-top: -1.06rem;
+        
+    }
+}
+
+
 @media screen and (max-width: 1080px){
 
-    .presentation{
+    .presentationControl{
+        border: green 1px solid;
         height: 15rem;
+    }
+
+    .presentation{
+        height: 0rem;
     }
     
     .bannerPresentation{
@@ -77,26 +158,17 @@ width: 54.5rem;
     }
 
     .controlVideo{
-    margin-left: 1%;
+    margin-left: 0%;
     height: 15rem;
     width: 100%;
-    }
+    
+}
 
     .controlVideo video{
         width: 100%;
         height: 100%;
-        margin-top: -2.4rem;
-    }
-
-    .textPresentation {
-        height: 14.65rem;
-        background-image: linear-gradient(
-        /* to left */  /* to top left */
-         
-        90deg,
-        black 23.5%,
-        transparent
-    );
+        margin-top: 0rem;
+        margin-left: 0%;
     }
 
    

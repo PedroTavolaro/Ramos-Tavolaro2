@@ -12,8 +12,12 @@ interface FooterCardsProps {
 export function FooterCards(props: FooterCardsProps){
     return(
 
+        <div className={styles.controlFooterCard}>
         <div className={styles.controlAbout}>
+        <div className={styles.controlArrow}>
         <Arrow />
+        </div>
+        
 
         <div className={styles.containerAbout}>
         
@@ -27,6 +31,7 @@ export function FooterCards(props: FooterCardsProps){
         </Link>
                         
         </div>
+    </div>
     </div>
     )
 }

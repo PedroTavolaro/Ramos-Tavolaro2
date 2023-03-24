@@ -1,17 +1,70 @@
+
+
 .container{
+    width: 100%;
     background: rgba(201, 231, 248, 1);
+    padding: 2.5rem 0rem 7.5rem 0rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.header{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo2{
+    width: 125rem;
+    height: 15rem;
+}
+.logo1{
+    width: 15rem;
+    height: 18rem;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.containerTwo {
+    height: 1.5rem;
+    margin-top: 0%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.containerTwo div {
+    padding: 2.5rem 0rem 0rem 0rem;
+}
+
+.containerTwo div a {
+  
+}
+.containerTwo div strong{
+    font-size: 3.8rem;
+    
+    margin-right: 10rem;
+    color: rgba(138, 110, 54, 1)
+}
+
+
+@media screen and (max-width: 3280px){
+
+.container{
+    
     padding: 0rem 0rem 0.2rem 0rem;
 }
 
 .header{
-    display: flex;
-    justify-content: space-between;
+    height: 12rem;
 }
 
 .logo2{
     width: 34rem;
     height: 4rem;
-    
 }
 
 .logo1{
@@ -23,51 +76,101 @@
 }
 
 .containerTwo {
-    height: 1.5rem;
-    margin-top: 4.4%;
-    width: 40%;
+    
 }
 
 .containerTwo div {
-    display: grid;
-    grid-template-columns: 20% 25% 15% 15% 1%;
+    
 }
 .containerTwo div strong{
-    color: rgba(138, 110, 54, 1)
+    font-size: 2rem;
+    margin-right: 5rem;
 }
 
-@media screen and (max-width: 1080px){
+}
 
-    .header{
-        display: grid;
-        justify-content: space-between;
+@media screen and (max-width: 1580px){
+
+    .container{
+        
+        padding: 0rem 0rem 0.2rem 0rem;
     }
-
+    
+    .header{
+        height: 12rem;
+    }
+    
     .logo2{
-        width: 19rem;
-        height: 3rem;
+        width: 34rem;
+        height: 4rem;
     }
     
     .logo1{
-        width: 4rem;
-        height: 4rem;
-        margin-right: 0.5rem;
+        width: 5rem;
+        height: 5rem;
+        margin-right: 1.5rem;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
     }
     
-
+    .containerTwo {
+        
+    }
+    
     .containerTwo div {
-        display: grid;
-        grid-template-columns: 52% 74% 42% 40% 0%;
         
     }
-
-    .containerTwo div strong {
-        font-size: 0.9rem;
-        
+    .containerTwo div strong{
+        font-size: 1.4rem;
+        margin-right: 3rem;
+    }
+    
     }
 
-    .containerTwo div strong:nth-child(1){
-        margin-left: 1rem;
+@media screen and (max-width: 1080px){
+
+   
+
+}
+
+@media screen and (max-width: 620px){
+
+    .container{
+        padding: 0rem 0rem 0.2rem 0rem;
+    }
+    
+    .header{
+        height: 10rem;
+    }
+    
+    .logo2{
+        width: 20rem;
+        height: 2rem;
+    }
+    
+    .logo1{
+        width: 3rem;
+        height: 3rem;
+        margin-right: 0.8rem;
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    .containerTwo {
+        padding: 0rem 0rem 0rem 0rem;
+        height: 7rem;
+    }
+    
+    .containerTwo div {
+         display: grid;
+         grid-template-columns: 33% 30% 35%;
+         line-height: 1.5;
+         margin-top: -1rem;
+    }
+
+    .containerTwo div strong{
+        font-size: 1rem;
+        margin-right: 0rem;
     }
 
 }

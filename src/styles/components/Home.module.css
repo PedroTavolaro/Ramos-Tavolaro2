@@ -1,7 +1,55 @@
 .containerMaster{
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    margin-bottom: 0.4rem;
+}
+
+.whats{
+    
+}
+
+.body{
+    
+}
+
+.controlWhats{
+ 
+  
+}
+
+.controlService{
+
+}
+
+
+.containerLocation{
+    margin-top: 8rem;
+    text-align:center;
+}
+
+.containerLocation h1{
+    font-size: 5rem;
+}
+
+.locationArea{
+    margin-top: 4rem;
+}
+
+.imgLocation{
+    width: 200rem;
+    height: 90rem;
+}
+
+@media screen and (max-width: 3280px){
+
+.containerMaster{
     width: 100%;
     align-items: center;
     justify-content: center;
+    margin-left: 0%;
 }
 
 .header {
@@ -32,6 +80,28 @@
 }
 
 .containerLocation h1{
+    font-size: 4rem;
+}
+
+.locationArea{
+    margin-top: 4rem;
+}
+
+.imgLocation{
+    width: 80%;
+    height: 70rem;
+}
+}
+
+
+@media screen and (max-width: 1580px){
+
+.containerLocation{
+    margin-top: 4rem;
+    text-align:center;
+}
+
+.containerLocation h1{
     font-size: 2.5rem;
 }
 
@@ -43,6 +113,8 @@
     width: 80%;
     height: 30rem;
 }
+}
+
 
 @media screen and (max-width: 1080px){
     

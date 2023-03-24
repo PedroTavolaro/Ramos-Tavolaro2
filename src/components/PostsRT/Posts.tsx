@@ -48,7 +48,7 @@ export const Posts: React.FC<ScrollContainerProps> = ({contentWidth, children}) 
 
     return (
 
-        <>
+        <div className={styles.master}>
              <div className={styles.containerTitle}>
              <h1>Posts</h1>
             </div>
@@ -126,7 +126,7 @@ export const Posts: React.FC<ScrollContainerProps> = ({contentWidth, children}) 
                   <FooterCards name={'@rtodonto.clinica'} img={insta} link={'https://www.instagram.com/rtodonto.clinica/'} />
                   
      
-        </>
+        </div>
     )
 }
 
