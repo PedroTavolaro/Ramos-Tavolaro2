@@ -177,6 +177,10 @@
     margin-top: 6rem;
 }
 
+.titleTwo{
+    text-align: center;
+}
+
 .recommendationArea {
     display: flex;
     width: 190rem;
@@ -238,7 +242,7 @@
 }
 
 .imgAboutProfile {
-    height: 55rem;
+    height: 82rem;
 }
 
 .title{
@@ -257,7 +261,7 @@
 .videosSelected iframe {
     
    
-    max-width: 1280px;
+    max-width: 1380px;
     max-height: 85vh;
 }
 
@@ -291,7 +295,7 @@
   }
 
 .scrollContainer{
-    width: 100rem;
+    width: 92rem;
   height: 25rem; /* Defina a altura que desejar */
   margin-top: 0rem;
   }
@@ -389,6 +393,10 @@
     
 }
 
+.titleTwo{
+    font-size: 1.5rem;
+}
+
 .recommendationArea::-webkit-scrollbar-thumb{
     border-radius: 6px;
     background: linear-gradient(to top, #00ccff, #0059ff);
@@ -401,20 +409,14 @@
       background: rgba(8, 2, 65, 0.411);
   }
 
-.scrollContainerTwo{
-    width: 90%;
-  height: 23rem; /* Defina a altura que desejar */
-  margin-left: 2rem;
-  margin-top: 0rem;
-  flex-direction: row;
-  
-  }
 
 .recommendationArea {
+    margin-top: 1rem;
     display: flex;
-    width: 95%;
-    height: 42rem;
-    margin-left: 2rem;
+    width: 92rem;
+    height: 34rem;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -435,7 +437,7 @@
 
 .recommendationArea div iframe{
     width: 45rem;
-    height: 35rem;
+    height: 30rem;
     margin-left: 1rem;
 }
 
@@ -507,7 +509,7 @@
       }
     
     .scrollContainer{
-        width: 80%;
+      width: 80%;
       height: 18rem; /* Defina a altura que desejar */
       margin-top: 0rem;
       }

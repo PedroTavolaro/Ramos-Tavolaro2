@@ -6,6 +6,7 @@ import Logo from '../../assets/header/logo.png';
 
 import Logo2 from '../../assets/header/logoRT.png';
 import logoteste from '../../assets/header/testelogo.png';
+import Link from 'next/link';
 
 export function Header(){
     return (
@@ -18,7 +19,7 @@ export function Header(){
             </div>
             <div className={styles.containerTwo}>
                 <div>
-                     <a href='#ebooks'><strong>INÍCIO</strong></a>
+                     <Link href='/'><strong>INÍCIO</strong></Link>
                      <a href='#servicos'><strong>SERVIÇOS</strong></a>
                      <a href='#about'><strong className={styles.about}>QUEM SOMOS</strong></a>
                      <a href='#posts'><strong>POSTS</strong></a>

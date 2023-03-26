@@ -119,19 +119,15 @@
 }
 
 .controlEbook {
-    display: flex;
     height: 25rem;
 }
 
 .backgroundEbook{
-    display: flex;
     height: 24rem;
     width: 50%;
-    border-radius: 1%;
 }
 
 .title {
-    text-align: center;
     margin-top: 6rem;
 }
 
@@ -154,8 +150,9 @@
 .containerEbookScroll{
     margin-top: 2rem;
     overflow-x: scroll;
-    width: 95%;
-    margin-left: 2rem;
+    width: 92rem;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #BFDDFF;
 }
 
@@ -225,6 +222,116 @@
 }
 
 }
+
+@media screen and (max-width: 1520px){
+
+    .containerEbook{
+        height: 38rem;
+    }
+    
+    .controlEbook {
+        height: 25rem;
+    }
+    
+    .backgroundEbook{
+        height: 24rem;
+        width: 50%;
+    }
+    
+    .title {
+        margin-top: 6rem;
+    }
+    
+    .title h1 {
+        font-size: 2.5rem;
+    }
+    
+    .containerEbookScroll::-webkit-scrollbar-thumb{
+        border-radius: 6px;
+        background: linear-gradient(to top, #00ccff, #0059ff);
+        
+      }
+      .containerEbookScroll::-webkit-scrollbar{
+          top: 0;
+          right: 0;
+          height: 15px; 
+          background: rgba(8, 2, 65, 0.411);
+      }
+    
+    .containerEbookScroll{
+        margin-top: 2rem;
+        overflow-x: scroll;
+        width: 95%;
+        
+        background-color: #BFDDFF;
+    }
+    
+    .containerEbookScroll div {
+       
+    }
+    
+    .ebook{
+        height: 24.7rem;
+    }
+    
+    .controlImgEbook{
+        height: 1rem;
+    }
+    
+    .imgEbook{
+        height: 24rem;
+        margin-top: -0rem;
+        width: 25rem;
+    }
+    
+    
+    .controlEbookDescription {
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+    
+    .logo{
+        width: 24rem;
+        height: 6rem;
+        margin-left: -0.7rem;
+    }
+    
+    .textEbook {
+        color: #C9B608;
+        font-size: 2rem;
+        margin-top: -0rem;   
+        line-height: 2.5;
+        margin-left: 0rem;
+    }
+    
+    .controlTextEbookDescription{
+        width: 70%;
+    }
+    
+    .textEbookDescription {
+        color: white;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        width: 10rem;
+    }
+    
+    .viewEbook{
+        margin-top: 3.1rem;
+        margin-left: 37%;
+        position: relative;
+        height: 2rem;
+        text-align: center;
+    }
+    .viewEbook div{
+        height: 0.2rem;
+    }
+    
+    .textViewEbook {
+        color: white;
+        font-size: 1.3rem;
+    }
+    
+    }
 
 @media screen and (max-width: 1080px){
     

@@ -14,6 +14,26 @@ interface ScrollContainerProps {
     contentWidth: number;
     children: React.ReactNode;
 }
+/*
+const imagens: string[] = ['../../assets/postsRT/rtodonto 1.png','../../assets/postsRT/rtodonto 2.png', '../../assets/postsRT/rtodonto 3.png']
+
+
+
+const divsCointainer: HTMLElement | null = document.getElementById('divs-container')
+
+const divs: HTMLDivElement[] = imagens.map((imagem: string) => {
+    const div: HTMLDivElement = document.createElement('div');
+    const img: HTMLImageElement = document.createElement('img')
+    img.src = imagem;
+
+    div.appendChild(img)
+
+    return div;
+})
+
+divs.forEach((div: HTMLDivElement) => {
+    divsCointainer?.appendChild(div);
+}) */
 
 
 export const Posts: React.FC<ScrollContainerProps> = ({contentWidth, children}) => {
@@ -49,6 +69,10 @@ export const Posts: React.FC<ScrollContainerProps> = ({contentWidth, children}) 
     return (
 
         <div className={styles.master}>
+
+            <div className='divs-container'>
+
+            </div>
              <div className={styles.containerTitle}>
              <h1>Posts</h1>
             </div>

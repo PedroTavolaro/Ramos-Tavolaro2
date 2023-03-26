@@ -123,11 +123,11 @@
 @media screen and (max-width: 3280px){
     .descriptionAboutTwo{
         margin-top: 5rem;
-        width: 100rem;
+        width: 94rem;
     }
 
     .teacherTwo {
-        width: 65rem;
+        width: 60rem;
         margin-bottom: 4rem;
     }
 
@@ -177,16 +177,17 @@
     .descriptionProfileTwo{
         font-size: 1.8rem;
         width: 65%;
+        margin-bottom: 8%;
     }
     
     .profileTwo{
-        width: 32rem;
+        width: 28rem;
         height: 30rem;
     }
 
 }
 
-@media screen and (max-width: 1580px){
+@media screen and (max-width: 1520px){
     .descriptionAboutTwo{
         margin-top: 3rem;
         margin-left: 0rem;
@@ -265,8 +266,9 @@
     }
 
     .teacherTwo {
-        width: 98%;
-        margin-left: 2%;
+        width: 25rem;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 2rem;
         
     }
@@ -311,20 +313,22 @@
     }
     
     .controlTextTwo{
-        width: 100%;
+       
         margin-top:0rem;
         flex-direction: column;
     }
     
     .descriptionProfileTwo{
-        margin-left: 0rem;
+        margin-left: auto;
+        margin-right: auto;
         font-size: 1rem;
-        width: 100%;
+        width: 27rem;
         margin-bottom: 0%;
     }
     
     .profileTwo{
-        margin-left: 68%;
+        margin-left: 18rem;
+        margin-right: auto;
         margin-top: -0.5rem;
         width: 8rem;
         height: 8rem;

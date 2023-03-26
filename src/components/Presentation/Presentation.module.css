@@ -98,11 +98,11 @@
     }
 }
 
-@media screen and (max-width: 1580px){
+@media screen and (max-width: 1520px){
 
     .presentationControl{
-    height: 30rem;
-    border: red 1px solid;
+    height: 25rem;
+    
     }
     .presentation{
         width: 100%;
@@ -135,8 +135,8 @@
     
     .imgPresentation{
         width: 28%;
-        height: 28.5rem;
-        margin-top: -1.06rem;
+        height: 25rem;
+        margin-top: -0.8rem;
         
     }
 }

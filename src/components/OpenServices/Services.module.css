@@ -70,6 +70,7 @@
 @media screen and (max-width: 3280px){
 
 .containerService{
+  
 }
 
 .title{
@@ -81,14 +82,16 @@
 }
 .imgBackgroundServices {
     margin-top: -4rem;
-    width: 80%;
+    width: 80rem;
     height: 60rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 .services {
    display: grid;
-   grid-template-columns: 24.4% 24.4% 24.4% 24.4%;
+   grid-template-columns: 23.5rem 23.5rem 23.5rem 23.5rem;
    text-align: center;
    justify-content: center;
    margin-top: 2rem;
@@ -96,15 +99,15 @@
 }
 
 .controlServices{
-    width: 18.5rem;
-    height: 15.7rem;
+    width: 22.5rem;
+    height: 17.7rem;
     margin-left: 0rem;
     margin-bottom: 2rem;
 }
 
 
 .controlImg {
-    height: 15.5rem;
+    height: 17.5rem;
     box-shadow: rgba(15, 110, 187, 0.812) -1.5px 0px 12px 3px;
 }
 
@@ -112,7 +115,7 @@
 
 .imgService {
     width: 100%;
-    height: 15.5rem;
+    height: 17.5rem;
     margin-top: 0rem;
 }
 
@@ -132,10 +135,86 @@
     font-size: 1.8rem;
     margin-left: 0rem;
     margin-top: 0rem;
-    
     color: white;   
 }
 
+}
+
+@media screen and (max-width: 1520px){
+
+    .containerService{
+     
+    }
+    
+    .title{
+        font-size: 2.5rem;
+    }
+    
+    .controlBackground{
+    
+    }
+    .imgBackgroundServices {
+    
+        width: 80%;
+        height: 60rem;
+        
+    }
+    
+    
+    .services {
+       display: grid;
+       grid-template-columns: 24.7% 24.7% 24.7% 24.7%;
+       text-align: center;
+       justify-content: center;
+       margin-top: 2rem;
+       margin-left: 1.5%;
+    }
+    
+    .controlServices{
+        width: 15.5rem;
+        height: 14.5rem;
+        margin-left: 0rem;
+        margin-bottom: 2rem;
+    }
+    
+    .controlImg {
+        height: 14.5rem;
+        box-shadow: rgba(15, 110, 187, 0.812) -1.5px 0px 12px 3px;
+    }
+    
+    .imgService {
+        width: 100%;
+        height: 14.5rem;
+        margin-top: 0rem;
+    }
+    
+    .controlTextTwo{
+        /* background-color: rgba(15, 110, 187, 0.412); */
+        height: 4.9rem;
+        width: 100%;
+        margin-top: -5rem;
+        position: relative;
+    }
+    
+    .space{
+        height: 0.5rem;
+    }
+
+    .text {
+        font-size: 1.8rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        color: white;   
+    }
+
+    .containerImg{
+        
+    }
+
+    .buttonViewImage{
+        
+        
+    }
 }
 
 
@@ -155,9 +234,9 @@
      }
 
     .controlServices{
-    width: 13rem;
-    height: 12rem;
-    margin-left: 0.8rem;
+        width: 13rem;
+        height: 12rem;
+        margin-left: 0.8rem;
     }
 
      .controlImg {
@@ -175,7 +254,6 @@
         margin-top: 0rem;
     }
    
-
     .controlText{
         height: 3rem;
         width: 100%;
@@ -184,12 +262,13 @@
 
     .controlTextTwo{
         height: 0rem;
-        
     }
 
     .space{
         height: 1.8rem;
     }
+
+   
 }
 
 

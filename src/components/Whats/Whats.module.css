@@ -2,9 +2,45 @@
    align-items: center;
    text-align: center;
    justify-content: center;
+
 }
 
+.containerLogo {
+    width: 6rem;
+    height: 5rem;
+    
+    position: fixed;
+    margin-top: 55vh;
+    margin-left: 95rem;
+    margin-right: auto;
+}
 
+.containerLogo::before,.containerLogo::after{
+    content: '';
+    position: absolute;
+    top: 50%;  left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    width: 100%;  height: 100%;
+    border: 3px solid #059e0c;
+    animation: animate 2s infinite linear;
+}
+.containerLogo::after{
+  animation-delay: .7s;
+}
+
+@keyframes animate{
+    0%{
+        width: 100%;   
+        height: 100%;
+        opacity: 1;
+    }
+    100%{
+        width: 250%;   
+        height: 250%;
+        opacity: 0;
+    }
+}
 
 .controlWhatsText{
     align-items: center;
@@ -56,12 +92,9 @@
     
 
 .whatsLogo {
-    width: 10rem;
-    height: 10rem;
-    margin-top: 50vh;
-    position: fixed;
-    margin-left: 95rem;
-    margin-right: auto;
+  
+
+   
 }
 
 @media screen and (max-width: 3280px){
@@ -71,42 +104,56 @@
 }
 
 .whatsLogo {
-    width: 4rem;
-    height: 4rem;
-    position: fixed;
-    margin-left: 44%;
+   width: 3rem;
+   height: 3rem;
 }
 
 
-.whatsText{
-    width: 10rem;
-    height: 2rem;
-    text-align: center;
-    padding: 0.2rem;
-    margin-top: 44.4vh;
-    margin-left: 82%;
-}
-
-.whatsTextText{
-    width: 15rem;
-    font-size: 1rem;
-    margin-left: 0%;
-    padding: 0.2rem;
-}
-
-}
-
-@media screen and (max-width: 3280px){
-.whatsContainer {
-   
-    
-}
-
-.whatsLogo {
+.containerLogo {
     width: 3rem;
     height: 3rem;
     position: fixed;
+    margin-top: 52vh;
+    margin-left: 42rem;
+    margin-right: auto;
+}
+
+
+.whatsText{
+    width: 6rem;
+    height: 1.5rem;
+    text-align: center;
+    padding: 0.2rem;
+    margin-top: 47vh;
+    margin-left: 85%;
+}
+
+.whatsTextText{
+    width: 11rem;
+    font-size: 0.8rem;
+    margin-left: 0%;
+    padding: 0.1rem;
+}
+
+}
+
+@media screen and (max-width: 1520px){
+.whatsContainer {
+   
+    
+}
+
+.whatsLogo {
+ 
+}
+
+.containerLogo {
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    margin-top: 38vh;
     margin-left: 44%;
+    margin-right: auto;
 }
 
 
@@ -115,7 +162,7 @@
     height: 2rem;
     text-align: center;
     padding: 0.2rem;
-    margin-top: 44vh;
+    margin-top: 30vh;
     margin-left: 82%;
 }
 
@@ -130,11 +177,7 @@
 
 @media screen and (max-width: 1080px){
     .whatsLogo {
-        width: 2.2rem;
-        height: 2.2rem;
-        margin-top:40rem;
-        position: fixed;
-        margin-left: 90%;
+    
     }
 
     .whatsText{

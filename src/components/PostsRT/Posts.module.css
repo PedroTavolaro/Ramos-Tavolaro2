@@ -106,11 +106,12 @@
   }
 
   .scrollContainer{
-  width: 95%;
+  width: 92rem;
   height: 28rem; /* Defina a altura que desejar */
   overflow-x: scroll; /* Cria a barra de rolagem horizontal */
   overflow-y: hidden;
-  margin-left: 2rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2rem;
   background-color: #BFDDFF;
   }
@@ -233,7 +234,7 @@
     }
     
     .containerTitle{
-        margin-top: 6rem;
+        margin-top: 18rem;
     }
 
     .scrollContainer{

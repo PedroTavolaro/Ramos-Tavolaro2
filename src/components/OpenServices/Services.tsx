@@ -16,6 +16,7 @@ import proteses from "../../assets/servicos/proteses.png";
 import periodontia from "../../assets/servicos/periodontia.png";
 
 import serviceImgBg from "../../assets/about/VectorDente.png";
+import Link from "next/link";
 
 export function Services() {
   return (
@@ -30,17 +31,19 @@ export function Services() {
         />
       </div>
       <div className={styles.services}>
+      
         <div className={styles.controlServices}>
+          
+          <Link href={'/services'}>
           <div className={styles.controlImg}>
-            
             <Image src={implante} alt="" className={styles.imgService} />
               
               <div className={styles.controlTextTwo}>
                 <div className={styles.space}></div>
                 <strong className={styles.text}>IMPLANTES</strong>
               </div>
-            
           </div>
+          </Link>
         </div>
 
         <div className={styles.controlServices}>

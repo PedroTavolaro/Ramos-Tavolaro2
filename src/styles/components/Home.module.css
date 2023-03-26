@@ -85,11 +85,15 @@
 
 .locationArea{
     margin-top: 4rem;
+    
+   
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .imgLocation{
-    width: 80%;
-    height: 70rem;
+    width: 60%;
+    height: 35rem;
 }
 }
 
@@ -110,8 +114,8 @@
 }
 
 .imgLocation{
-    width: 80%;
-    height: 30rem;
+    width: 70%;
+    height: 22rem;
 }
 }
 

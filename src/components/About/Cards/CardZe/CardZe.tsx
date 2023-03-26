@@ -58,6 +58,18 @@ export function CardZe() {
             </p>
             
           </div>
+
+          <div className={styles1.controlTextMobile}>
+          
+            <p className={styles1.descriptionProfileMobile}>
+            👨🏻‍⚕️ Dr. José Luiz Tavolaro Silva, nascido e criado no interior do Rio de Janeiro,
+            veio para Vitória-ES em 2023 para realizar o sonho de ter o seu próprio consultório.
+            É cirurgião-dentista, formado pela Faculdade de Odontologia de Valença em 2018, e já atuou em diversas áreas da odontologia.
+            É especialista em implantodontia, área pela qual se apaixonou e se dedica a estar em constante evolução, com objetivo de proporcionar
+            a melhor experiencia possível ao seus pacientes, além de oferecer os mais inovadores e avançados tratamentos.
+            </p>
+            <Image src={ze} alt="" className={styles1.profileMobile} />  
+          </div>
         
         </div>
     )

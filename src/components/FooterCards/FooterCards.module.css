@@ -40,7 +40,7 @@
 .controlAbout{
     display: flex;
     justify-content: space-between;
-    width: 92%;
+    width: 90%;
 }
 
 .containerAbout{
@@ -61,9 +61,14 @@
     margin-right: 0.5rem;
     margin-left: 0rem;
 }
+
+.redeSocialText{
+    font-size: 2rem;
 }
 
-@media screen and (max-width: 1580px){
+}
+
+@media screen and (max-width: 1520px){
     .controlAbout{
         display: flex;
         justify-content: space-between;

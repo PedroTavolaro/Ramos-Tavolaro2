@@ -31,6 +31,11 @@
 }
 
 @media screen and (max-width: 3280px){
+    
+    .titleAbout h1{
+        font-size: 2.5rem;
+    }
+
     .controlImgBackgroundOne{
         height: 1rem;
     }
@@ -56,7 +61,7 @@
 
 
 
-@media screen and (max-width: 1580px){
+@media screen and (max-width: 1520px){
     .titleAbout h1{
         font-size: 2.5rem;
     }

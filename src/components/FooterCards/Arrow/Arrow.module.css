@@ -49,12 +49,13 @@
 .iconSeta{
    height: 2rem;
    width: 4rem;
+   margin-left: 15rem;
 }  
 
 }
 
 
-@media screen and (max-width: 1580px){
+@media screen and (max-width: 1520px){
     .containerSeta{
         
     }

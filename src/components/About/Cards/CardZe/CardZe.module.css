@@ -129,16 +129,40 @@
      margin-left: 1rem;
  }
 
+ .controlTextMobile{
+    height: 0rem;
+    margin-top: 0rem;
+    width: 0rem;
+    visibility: hidden;
+ }
+
+ .profileMobile{
+    height: 0rem;
+    width: 0rem;
+    visibility: hidden;
+    margin-left: 0rem;
+    margin-top: 0rem;
+ }
+
+ .descriptionProfileMobile{
+    font-size: 0rem;
+    margin-top: -0rem;
+    line-height: 0;
+    font-weight: 0;
+ }
+
+
  @media screen and (max-width: 3280px){
 
     .descriptionAbout{
-        margin-top:  5rem;
-        width: 100rem;
+        margin-top: 5rem;
+        width: 94rem;
+        
         }
      
      .teacher {
-         width: 65rem;
-         margin-left: 30rem;
+         width: 60rem;
+         margin-left: 28rem;
          margin-bottom: 2rem;
      }
      
@@ -198,7 +222,7 @@
      
      .profile1 {
       
-        width: 32rem;
+        width: 28rem;
         height: 30rem;
         margin-left: -2rem;
     }
@@ -213,7 +237,7 @@
  }
 
  
- @media screen and (max-width: 1580px){
+ @media screen and (max-width: 1520px){
 
     .descriptionAbout{
         margin-top:  2rem;
@@ -301,6 +325,7 @@
      }
 
     
+    
  }
 
  
@@ -309,19 +334,17 @@
     .descriptionAbout{
         margin-top:  1rem;
         width: 100%;
-      
-        }
+    }
      
      .teacher {
-         width: 98%;
-         margin-left: 2%;
-         margin-bottom: 2rem;
-         
+         width: 25rem;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 2rem;    
      }
      
      .descriptionTeacherContainer{
          margin-top: 0rem;
-         
      }
      
      .descriptionTeacherText{
@@ -373,22 +396,46 @@
      
      .controlText{
         flex-direction: column;
+        width: 0%;
+        height: 0rem;
      }
      
      .profile1 {
-        margin-top: 23rem;
-        width: 8rem;
-        height: 8rem;
-        margin-left: 0rem;
+        height: 0rem;
+        width: 0rem;
+        visibility: hidden;
+        margin-top: 0rem;
     }
      
      .descriptionProfile{
-    
          font-size: 1.1rem;
-         width: 100%;
-         margin-top: -31rem;
+         width: 0%;
+         margin-top: -0rem;
          margin-left: 0rem;
+         visibility: hidden;
      }
 
-    
+     .controlTextMobile{
+        height: 10rem;
+        margin-top: 0rem;
+        width: 26rem;
+        visibility: visible;
+        margin-left: auto;
+        margin-right: auto;
+     }
+
+     .descriptionProfileMobile{
+        font-size: 1rem;
+        margin-top: -0rem;
+        font-weight: 800;
+        line-height: 1.5;
+     }
+
+     .profileMobile{
+        margin-top: 0rem;
+        width: 8rem;
+        height: 8rem;
+        margin-left: 0rem;
+     }
+
  }
