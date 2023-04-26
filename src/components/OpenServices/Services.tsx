@@ -30,11 +30,16 @@ export function Services() {
           className={styles.imgBackgroundServices}
         />
       </div>
+
+      <div className={styles.buttonViewServices}>
+        <Link href='/services'>+ Descrições</Link>
+      </div>
+      
       <div className={styles.services}>
       
         <div className={styles.controlServices}>
           
-          <Link href={'/services'}>
+          <a href={'/services/#implante'}>
           <div className={styles.controlImg}>
             <Image src={implante} alt="" className={styles.imgService} />
               
@@ -43,7 +48,7 @@ export function Services() {
                 <strong className={styles.text}>IMPLANTES</strong>
               </div>
           </div>
-          </Link>
+          </a>
         </div>
 
         <div className={styles.controlServices}>

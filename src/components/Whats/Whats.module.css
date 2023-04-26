@@ -2,15 +2,13 @@
    align-items: center;
    text-align: center;
    justify-content: center;
-
 }
 
 .containerLogo {
-    width: 6rem;
-    height: 5rem;
-    
+    width: 7rem;
+    height: 7rem;
     position: fixed;
-    margin-top: 55vh;
+    margin-top: 52vh;
     margin-left: 95rem;
     margin-right: auto;
 }
@@ -47,11 +45,14 @@
     text-align: center;
     justify-content: center;
     width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .whatsText{
-    margin-top: 43vh;
-    width: 100%;
+    margin-top: 44vh;
+ 
+    width: 0rem;
     animation: textWhats;
     animation-duration: 5s;
     animation-iteration-count: 1;
@@ -68,11 +69,10 @@
     border-radius: 6%;
     color: white;
     font-weight: 800;
-    width: 45rem;
-    margin-left: 165rem;
-    margin-right: auto;
+    width: 38rem;
     padding: 1.5rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-left: 114rem;
 }
 
 
@@ -93,13 +93,47 @@
 
 .whatsLogo {
   
-
+width: 7rem;
+height: 7rem;
    
 }
 
+.controlButtonTop{
+   
+}
+
+.buttonTop{
+    position: fixed;
+    background-color: rgba(28, 116, 188, 0.812);
+    margin-top: 2vh;
+    padding: 0.4rem;
+    border-radius: 50%;
+    margin-left: -1rem;
+    margin-right: auto;
+    
+}
+
+.buttonTop p {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: -0.5rem;
+    color: white;
+    
+}
+
+.buttonTop div{
+    padding: 0.8rem;
+}
+
+.iconUp{
+    color: white;
+    font-size: 2.5rem;
+}
+
+
 @media screen and (max-width: 3280px){
 .whatsContainer {
-   
+  
     
 }
 
@@ -114,8 +148,7 @@
     height: 3rem;
     position: fixed;
     margin-top: 52vh;
-    margin-left: 42rem;
-    margin-right: auto;
+    margin-left: 44rem;
 }
 
 
@@ -124,78 +157,114 @@
     height: 1.5rem;
     text-align: center;
     padding: 0.2rem;
-    margin-top: 47vh;
-    margin-left: 85%;
+    margin-top: 46vh;
+    margin-left: 84rem;
 }
 
 .whatsTextText{
-    width: 11rem;
-    font-size: 0.8rem;
+    width: 13rem;
+    font-size: 1rem;
     margin-left: 0%;
-    padding: 0.1rem;
+    padding: 0.4rem;
 }
+
+
+.buttonTop{
+    margin-left: -1rem;
+    margin-top: 2vh;
+    padding: 0.2rem;
+}
+
+.buttonTop p {
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: -0.5rem;
+}
+
+.iconUp{
+    font-size: 1.5rem;
+}
+
+
 
 }
 
 @media screen and (max-width: 1520px){
-.whatsContainer {
-   
+    .whatsContainer {
+  
     
-}
-
-.whatsLogo {
- 
-}
-
-.containerLogo {
-    width: 3rem;
-    height: 3rem;
-    position: fixed;
-    margin-top: 38vh;
-    margin-left: 44%;
-    margin-right: auto;
-}
-
-
-.whatsText{
-    width: 10rem;
-    height: 2rem;
-    text-align: center;
-    padding: 0.2rem;
-    margin-top: 30vh;
-    margin-left: 82%;
-}
-
-.whatsTextText{
-    width: 11rem;
-    font-size: 0.8rem;
-    margin-left: 0%;
-    padding: 0.2rem;
-}
-
+    }
+    
+    .whatsLogo {
+       width: 3rem;
+       height: 3rem;
+    }
+    
+    
+    .containerLogo {
+        width: 3rem;
+        height: 3rem;
+        position: fixed;
+        margin-top: 52vh;
+        margin-left: 30rem;
+    }
+    
+    
+    .whatsText{
+        width: 6rem;
+        height: 1.5rem;
+        text-align: center;
+        padding: 0.2rem;
+        margin-top: 46vh;
+        margin-left: 54rem;
+    }
+    
+    .whatsTextText{
+        width: 13rem;
+        font-size: 1rem;
+        margin-left: 0%;
+        padding: 0.4rem;
+    }
+    
+    
+    .buttonTop{
+        margin-left: -1rem;
+        margin-top: 2vh;
+        padding: 0.2rem;
+    }
+    
+    .buttonTop p {
+        font-size: 1rem;
+        font-weight: 800;
+        margin-top: -0.5rem;
+    }
+    
+    .iconUp{
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 1080px){
-    .whatsLogo {
-    
+  
+
+    .containerLogo {
+        width: 3rem;
+        height: 3rem;
+        position: fixed;
+        margin-top: 38vh;
+        margin-left: 42%;
+        margin-right: auto;
     }
+    
 
     .whatsText{
        
         width: 8rem;
-        margin-top: 38.5rem;
-        margin-left: 67%;
+        margin-top: 28rem;
+        margin-left: 70%;
         border-radius: 6%;
         height: 1.2rem;
         text-align: center;
-        animation: textWhats;
-        animation-duration: 5s;
-        animation-iteration-count: 1;
-        animation-delay: 1s;
-        animation-direction: alternate;
-        transition-timing-function: ease;
-        color: white;
-        font-weight: 800;
         padding: 0.2rem;
         font-size: 0.7rem;
         opacity: 0;

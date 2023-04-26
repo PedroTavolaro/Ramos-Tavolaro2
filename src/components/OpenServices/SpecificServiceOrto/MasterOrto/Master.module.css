@@ -1,0 +1,770 @@
+.SpecificService{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+    
+    .title{ 
+        font-size: 5rem;
+        margin-top: 5rem;
+    }
+
+    .container{
+        width: 200rem;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 2px 3px 8px 4px rgba(20, 82, 156, 1);
+        background-color: var(--blue-standard);
+        border-radius: 5%;
+        margin-top: 8rem;
+        text-align: left;
+    }
+
+    .containerDescription{
+        display: flex;
+    }
+    
+    .controlServices{
+        width: 50rem;
+        height: 15.5rem;
+        margin-left: 0rem;
+        margin-bottom: 2rem;
+       
+    }
+    
+    .controlImg {
+        height: 40rem;   
+    }
+
+    .imgService {
+        width: 100%;
+        height: 38rem;
+        margin-top: 5rem;
+        margin-left: 6rem;
+    }
+    
+    .controlTextTwo{
+        /* background-color: rgba(15, 110, 187, 0.412); */
+        height: 4.9rem;
+        margin-top: -5rem;
+        position: relative;
+        text-align: center;
+        margin-left: 14rem;
+    }
+    
+    .text {
+        font-size: 4.5rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+        color: white;  
+    }
+
+    .ebook{
+        margin-left: 10rem;
+        margin-top: 4rem;
+        height: 10rem;
+    }
+    .ebookImage{
+        height: 25rem;
+        margin-top: 0rem;
+        width: 41rem;
+    }
+    
+    .controlImgEbook{
+        height: 0rem;
+    }
+    
+    .controlEbookDescription {
+        margin-top: 0rem;
+        margin-left: 1.5rem;
+    }
+    
+    .logo{
+        width: 36rem;
+        height: 10rem;
+        margin-left: 0rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .textEbook {
+        color: #C9B608;
+        font-size: 3rem;
+        margin-left: 1rem;
+        line-height: 1.5;
+    }
+    
+    .controlTextEbookDescription{
+        width: 70%;
+    }
+    
+    .textEbookDescription {
+        color: white;
+        font-size: 2.5rem;
+        width: 10rem;
+        margin-left: 1rem;
+    }
+    
+    .viewEbook{
+        margin-top: 0.9rem;
+        margin-left: 37%;
+        position: relative;
+        height: 2rem;
+        text-align: center;
+    }
+    .viewEbook div{
+        height: 1.8rem;
+    }
+    
+    .textViewEbook {
+        color: white;
+        font-size: 2rem;
+    }
+
+    .descriptionService{
+        margin-left: 10rem;
+        font-size: 4rem;
+        margin-top: 5rem;
+        font-weight: bold;
+        width: 66.5%;
+        padding: 0rem 0rem 5rem 1rem;
+        background-color: rgb(162, 200, 247);
+        box-shadow: 2px 3px 8px 4px rgba(20, 82, 156, 1);
+        height: 62rem;
+    }
+
+    .containerImg{
+        padding: 0rem 0rem 5rem 0rem;
+        
+    }
+
+    .buttonViewImage{
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        height: 8rem;
+        width: 95%;
+        margin-left: 2.5%;
+        text-align: left;
+        align-items: center;
+        justify-content: left;
+        display: flex;
+        background-color: rgb(162, 200, 247);
+        border-radius: 3%;
+        box-shadow: 2px 3px 8px 4px rgba(20, 82, 156, 1);
+        border: none;
+        transition: 1.5s;
+    }
+   
+    .buttonViewImage:nth-child(1){
+        margin-top: 4rem;
+    }
+
+    .buttonViewImage strong {
+        font-size: 4rem;
+        margin-left: 2rem;
+    }
+
+    .iconButtonVisible{
+        font-size: 5rem;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+    }
+
+
+
+
+@media screen and (max-width: 3280px){
+
+    .title{ 
+        font-size: 3.5rem;
+        margin-top: 4rem;
+    }
+
+    .container{
+        width: 98rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2.5rem;
+    }
+    
+    .containerDescription{
+        display: flex;
+    }
+
+    .controlServices{
+        width: 22rem;
+        height: 19rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .controlImg {
+        height: 19rem;
+    }
+
+    .imgService {
+        width: 100%;
+        height: 18.5rem;
+        margin-top: 0rem;
+        margin-left: 2.5rem;
+    }
+    
+    
+    .controlTextTwo{
+        /* background-color: rgba(15, 110, 187, 0.412); */
+        margin-left: 5.5rem;
+    }
+    
+    .text {
+        font-size: 2.5rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        color: white;  
+    }
+
+    .ebook{
+        margin-left: 4rem;
+        margin-top: 0rem;
+        height: 10rem;
+    }
+    .ebookImage{
+        height: 12rem;
+        margin-top: -0rem;
+        width: 18.5rem;
+    }
+    
+    .controlImgEbook{
+        height: 0rem;
+    }
+    
+    .controlEbookDescription {
+        margin-top: 0rem;
+        margin-left: 1.5rem;
+    }
+    
+    .logo{
+        width: 16rem;
+        height: 4rem;
+        margin-left: -0.7rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .textEbook {
+        color: #C9B608;
+        font-size: 1.3rem;
+        margin-left: -1rem;
+        line-height: 1.5;
+    }
+    
+    .controlTextEbookDescription{
+        width: 70%;
+    }
+    
+    .textEbookDescription {
+        color: white;
+        font-size: 1.1rem;
+        
+        width: 10rem;
+        margin-left: -1rem;
+    }
+    
+    .viewEbook{
+        margin-top: 0.9rem;
+        margin-left: 37%;
+        position: relative;
+        height: 2rem;
+        text-align: center;
+    }
+    .viewEbook div{
+        height: 0.85rem;
+    }
+    
+    .textViewEbook {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .descriptionService{
+        margin-left: 4rem;
+        font-size: 2rem;
+        margin-top: 2rem;
+        height: 31rem;
+    }
+
+    .buttonViewImage{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        text-align: left;
+        height: 5rem;
+    }
+
+    .buttonViewImage:nth-child(1){
+        margin-top: 2rem;
+    }
+
+    .buttonViewImage strong {
+        font-size: 2.5rem;
+    }
+
+    .iconButtonVisible{
+        font-size: 3.5rem;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 1520px){
+
+    .container{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    
+    .containerDescription{
+        display: flex;
+    }
+
+    .controlServices{
+        width: 14.5rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .controlImg {
+        height: 15rem;
+        
+    }
+
+    .imgService {
+        width: 100%;
+        height: 14rem;
+        margin-top: 0rem;
+        margin-left: 1rem;
+    }
+    
+    
+    .controlTextTwo{
+        /* background-color: rgba(15, 110, 187, 0.412); */
+        
+        margin-left: 2rem;
+    }
+    
+    .text {
+        font-size: 1.7rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        color: white;  
+    }
+
+    .textTwo{
+        margin-top: -3.1rem;
+        color: white;
+        font-size: 1.7rem;
+        margin-left: -0.7rem;
+    }
+
+    .ebook{
+        margin-left: 1.8rem;
+        margin-top: -0.5rem;
+        height: 10rem;
+    }
+    .ebookImage{
+        height: 8.5rem;
+        margin-top: -0rem;
+        width: 12.5rem;
+    }
+
+    
+    .controlImgEbook{
+        height: 0rem;
+    }
+    
+    .controlEbookDescription {
+        margin-top: 0rem;
+        margin-left: 1.5rem;
+    }
+    
+    .logo{
+        width: 11rem;
+        height: 2.5rem;
+        margin-left: -0.7rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+    }
+    
+    .textEbook {
+        color: #C9B608;
+        font-size: 0.9rem;
+        
+        margin-left: -1rem;
+    }
+    
+    .controlTextEbookDescription{
+        width: 70%;
+    }
+    
+    .textEbookDescription {
+        color: white;
+        font-size: 0.8rem;
+        width: 10rem;
+        margin-left: -1rem;
+    }
+    
+    .viewEbook{
+        margin-top: 0rem;
+        margin-left: 37%;
+        position: relative;
+        height: 2rem;
+        text-align: center;
+    }
+    .viewEbook div{
+        height: 0rem;
+    }
+    
+    .textViewEbook {
+        color: white;
+        font-size: 0.7rem;
+    }
+
+    .descriptionService{
+        margin-left: 3rem;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        height: 22.5rem;
+    }
+
+    .containerImg{
+        margin-top: 2rem;
+        padding: 0rem 0rem 2rem 0rem;
+    }
+
+    .buttonViewImage{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        text-align: left;
+        height: 3rem;
+    }
+
+    .buttonViewImage strong {
+        font-size: 2rem;
+    }
+
+    .iconButtonVisible{
+        font-size: 2.5rem;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 1080px){
+
+    .title{ 
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .container{
+        width: 96%;
+        margin-top: 2rem;
+    }
+    
+    .containerDescription{
+        display: flex;
+        
+    }
+
+    .controlServices{
+        width: 11rem;
+        height: 12rem;
+        margin-top: 2rem;
+        margin-left: 0rem;
+        margin-bottom: 2rem;
+    }
+    
+    .controlImg {
+        height: 14rem;
+    }
+
+    .imgService {
+        width: 100%;
+        height: 12.5rem;
+        margin-top: 0rem;
+        margin-left: 1rem;
+    }
+    
+    
+    .controlTextTwo{
+        /* background-color: rgba(15, 110, 187, 0.412); */
+        text-align: center;
+        margin-left: 1.1rem;
+    }
+    
+    .text {
+        font-size: 1.25rem;
+        margin-left: 0.8rem;
+        margin-top: 0rem;
+        color: white;  
+    }
+    .textTwo{
+        margin-top: -3.1rem;
+        color: white;
+        font-size: 1.25rem;
+        margin-left: 0.3rem;
+    }
+
+
+    .ebook{
+        margin-left: 1.4rem;
+        margin-top: -1rem;
+        height: 10rem;
+    }
+    .ebookImage{
+        height: 8rem;
+        margin-top: -0rem;
+        width: 10rem;
+    }
+
+    
+    .controlImgEbook{
+        height: 0rem;
+    }
+    
+    .controlEbookDescription {
+        margin-top: 0rem;
+        margin-left: 1.5rem;
+    }
+    
+    .logo{
+        width: 9rem;
+        height: 2.5rem;
+        margin-left: -1rem;
+        margin-top: 0.2rem;
+        margin-bottom: 0rem;
+    }
+    
+    .textEbook {
+        color: #C9B608;
+        font-size: 0.8rem;
+        margin-left: -1rem;
+    }
+    
+    .controlTextEbookDescription{
+        width: 70%;
+    }
+    
+    .textEbookDescription {
+        color: white;
+        font-size: 0.62rem;
+        width: 10rem;
+        margin-left: -1rem;
+    }
+    
+    .viewEbook{
+        margin-top: 0rem;
+        margin-left: 37%;
+        position: relative;
+        height: 2rem;
+        text-align: center;
+    }
+    .viewEbook div{
+        height: 0rem;
+    }
+    
+    .textViewEbook {
+        color: white;
+        font-size: 0.6rem;
+    }
+
+    .descriptionService{
+        margin-left: 2rem;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        height: 19.5rem;
+    }
+
+    .containerImg{
+        margin-top: 2rem;
+        
+    }
+    .buttonViewImage{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        text-align: left;
+        height: 3rem;
+    }
+
+    .buttonViewImage strong {
+        font-size: 2rem;
+    }
+
+    .iconButtonVisible{
+        font-size: 2.5rem;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 620px){
+
+    .title{ 
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .container{
+        width: 98%;
+        margin-top: 2rem;
+    }
+    
+    .containerDescription{
+        display: grid;
+        gap: 0rem;
+    }
+
+    .controlServices{
+        width: 100%;
+        
+        height: 8rem;
+        margin-top: 2rem;
+        margin-left: 0rem;
+        margin-bottom: 2rem;
+        display: flex;
+        
+    }
+    
+    .controlImg {
+        height: 12rem;
+    }
+
+    .imgService {
+        width: 100%;
+        height: 9rem;
+        margin-top: 0rem;
+        margin-left: 0.5rem;
+    }
+    
+    
+    .controlTextTwo{
+        /* background-color: rgba(15, 110, 187, 0.412); */
+        margin-top: 7rem;
+        margin-left: -10rem;
+        display: grid;
+        
+    }
+    
+    .text {
+        font-size: 1rem;
+        margin-top: -0.5rem;
+        color: white;  
+        margin-left: 0rem;
+    }
+
+    .textTwo{
+        margin-top: -3.1rem;
+        color: white;
+        font-size: 1rem;
+        margin-left: 0rem;
+    }
+
+    .ebook{
+        margin-left: 2.6rem;
+        margin-top: 0.65rem;
+        height: 10rem;
+       
+    }
+    .ebookImage{
+        height: 8rem;
+        margin-top: -0rem;
+        width: 10rem;
+    }
+
+    
+    .controlImgEbook{
+        height: 0rem;
+    }
+    
+    .controlEbookDescription {
+        margin-top: 0rem;
+        margin-left: 1.5rem;
+    }
+    
+    .logo{
+        width: 9rem;
+        height: 2.5rem;
+        margin-left: -1rem;
+        margin-top: 0.2rem;
+        margin-bottom: 0rem;
+    }
+    
+    .textEbook {
+        color: #C9B608;
+        font-size: 0.8rem;
+        margin-left: -1rem;
+    }
+    
+    .controlTextEbookDescription{
+        width: 70%;
+    }
+    
+    .textEbookDescription {
+        color: white;
+        font-size: 0.62rem;
+        width: 10rem;
+        margin-left: -1rem;
+    }
+    
+    .viewEbook{
+        margin-top: -0.2rem;
+        margin-left: 5%;
+        position: relative;
+        height: 2rem;
+        text-align: center;
+    }
+    .viewEbook div{
+        height: 0.2rem;
+    }
+    
+    .textViewEbook {
+        color: white;
+        font-size: 0.6rem;
+    }
+
+    .descriptionService{
+        margin-left: 0.5rem;
+        font-size: 1rem;
+        margin-top: 0rem;
+        height: 16rem;
+        width: 95%;
+    }
+
+    .containerImg{
+        padding: 0rem 0rem 1.5rem 0rem;
+        margin-top: 2rem;
+        
+    }
+    .buttonViewImage{
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        text-align: left;
+        height: 2rem;
+    }
+
+    .buttonViewImage strong {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
+    .iconButtonVisible{
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+}

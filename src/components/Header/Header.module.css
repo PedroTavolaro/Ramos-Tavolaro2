@@ -129,28 +129,23 @@
 
 @media screen and (max-width: 1080px){
 
-   
-
-}
-
-@media screen and (max-width: 620px){
-
     .container{
         padding: 0rem 0rem 0.2rem 0rem;
     }
     
     .header{
-        height: 10rem;
+        height: 11.5rem;
     }
     
     .logo2{
-        width: 20rem;
-        height: 2rem;
+        width: 25rem;
+        height: 3.5rem;
+        
     }
     
     .logo1{
-        width: 3rem;
-        height: 3rem;
+        width: 4rem;
+        height: 4rem;
         margin-right: 0.8rem;
         margin-left: 0.5rem;
         margin-top: 0.5rem;
@@ -159,18 +154,86 @@
     .containerTwo {
         padding: 0rem 0rem 0rem 0rem;
         height: 7rem;
+        
+        width: 45rem;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .containerTwo div {
          display: grid;
-         grid-template-columns: 33% 30% 35%;
+         grid-template-columns: 15rem 15rem 15rem;
          line-height: 1.5;
          margin-top: -1rem;
+        
     }
 
     .containerTwo div strong{
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-right: 0rem;
+        
     }
+
+}
+
+@media screen and (max-width: 620px){
+
+   
+.container{
+    width: 100%;
+    background: rgba(201, 231, 248, 1);
+    padding: 2rem 0rem 2.5rem 0rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 12rem;
+}
+
+.header{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo2{
+    width: 12rem;
+    height: 2rem;
+}
+
+.logo1{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.containerTwo {
+    height: 1.5rem;
+    margin-top: 0%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.containerTwo div {
+    padding: 0.5rem 0rem 0rem 0rem;
+    line-height: 1.5;
+    grid-template-columns: 8rem 8rem 8rem;
+}
+
+.containerTwo div a {
+    
+    
+}
+
+.containerTwo div strong{
+    font-size: 1rem;
+    width: 10rem;
+    margin-right: 0rem;
+    color: rgba(138, 110, 54, 1)
+}
 
 }

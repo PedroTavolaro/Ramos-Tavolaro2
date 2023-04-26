@@ -1,0 +1,90 @@
+.containerSeta{
+    margin-top: 1rem;
+   animation: seta;
+   animation-duration: 2s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+}
+
+@keyframes seta {
+   0%{
+   margin-left: 5%
+   }
+ 
+   100%{
+   margin-left: 280%
+   }
+}
+
+.iconSeta{
+   height: 4rem;
+   width: 6rem;
+}  
+
+
+
+
+@media screen and (max-width: 3280px){
+.containerSeta{
+    margin-top: 1rem;
+
+   animation: seta;
+   animation-duration: 2s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+}
+
+@keyframes seta {
+   0%{
+   margin-left: 5%
+   }
+ 
+   100%{
+   margin-left: 100%
+   }
+}
+
+.iconSeta{
+   height: 2rem;
+   width: 4rem;
+   margin-left: 3rem;
+}  
+
+}
+
+
+@media screen and (max-width: 1520px){
+    .containerSeta{
+        
+    }
+    
+    @keyframes seta {
+       0%{
+       margin-left: 0%
+       }
+     
+       100%{
+       margin-left: 25%
+       }
+    }
+    
+    .iconSeta{
+       height: 1.5rem;
+       width: 3rem;
+       margin-left: 3rem;
+    }  
+    
+    }
+
+
+@media screen and (max-width: 1080px){
+    
+   
+   .iconSeta{
+       height: 1rem;
+       width: 2rem;
+       margin-left: 1rem;
+   }
+}

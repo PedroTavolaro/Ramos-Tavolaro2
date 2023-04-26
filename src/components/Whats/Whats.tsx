@@ -4,6 +4,8 @@ import styles from './Whats.module.css'
 
 import whats from '../../assets/contact/whats.png'
 import { useEffect, useRef, useState } from 'react';
+import { ArrowCircleUp, ArrowUp } from 'phosphor-react';
+import Link from 'next/link';
 
 
 export function Whats() {
@@ -43,7 +45,18 @@ export function Whats() {
             
         <a className={styles.containerLogo} href='https://wa.me/5527997762910?text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20melhor%20a%20Ramos%20Tavolaro%20!!!' target='_blank' rel="noreferrer">
         <Image src={whats} alt='' className={styles.whatsLogo} /> 
+        <div className={styles.buttonTop}>
+            <div>
+            <Link href='#header'>
+            <ArrowCircleUp  className={styles.iconUp}/>
+            <p>Topo</p>
+            </Link>
+            </div>
+        </div>
         </a>
+          
+       
+        
           </div>
           
         // <div className={styles.container}>

@@ -1,11 +1,13 @@
 .containerService{
     text-align: center;
     margin-top: 5rem;
+    
 }
 
 .title{
     font-size: 5rem;
     position: relative;
+  
 }
 
 .controlBackground{
@@ -15,6 +17,19 @@
     margin-top: -4rem;
     width: 80%;
     height: 100rem;
+}
+
+.buttonViewServices{
+    width: 12rem;
+    margin-left: 72%;
+    position: relative;
+    margin-top: 1rem;
+    background-color: rgba(28, 116, 188, 0.812);
+    padding: 0.5rem;
+    border-radius: 8%;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: white;
 }
 
 
@@ -159,8 +174,12 @@
         height: 60rem;
         
     }
+
+    .buttonViewServices{
+        font-size: 1.2rem;
+    }
     
-    
+
     .services {
        display: grid;
        grid-template-columns: 24.7% 24.7% 24.7% 24.7%;
@@ -220,6 +239,68 @@
 
 @media screen and (max-width: 1080px){
 
+    .containerService{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .title{
+        font-size: 1.8rem;
+    }
+
+    .imgBackgroundServices {
+        width: 40rem;  
+    }
+
+    .services {
+        grid-template-columns:  22rem 1rem;
+        justify-content: left;
+     
+     }
+
+    .controlServices{
+        width: 20rem;
+        height: 14rem;
+        margin-left: 0.8rem;
+        
+    }
+
+     .controlImg {
+        height: 14rem;
+        width: 95%;
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+
+     .imgService {
+        width: 100%;
+        height: 14rem;
+        margin-top: 0rem;
+    }
+   
+    .controlText{
+        
+        width: 100%;
+        
+    }
+
+    .controlTextTwo{
+        height: 0rem;
+    }
+
+    .space{
+        height: 1rem;
+    }
+
+   
+}
+
+
+@media screen and (max-width: 620px){
+
     .title{
         font-size: 1.6rem;
     }
@@ -228,19 +309,32 @@
         width: 100%;  
     }
 
+    .buttonViewServices{
+        width: 10rem;
+        margin-left: 58%;
+        position: relative;
+        margin-top: 1rem;
+        background-color: rgba(28, 116, 188, 0.812);
+        padding: 0.4rem;
+        border-radius: 8%;
+        font-size: 1rem;
+        font-weight: 800;
+        color: white;
+    }
+
     .services {
-        grid-template-columns:  48% 48%;
+        grid-template-columns:  52% 0%;
         justify-content: left;
      }
 
     .controlServices{
-        width: 13rem;
-        height: 12rem;
+        width: 12rem;
+        height: 10rem;
         margin-left: 0.8rem;
     }
 
      .controlImg {
-        height: 12rem;
+        height: 10rem;
         width: 95%;
     }
 
@@ -250,7 +344,7 @@
 
      .imgService {
         width: 100%;
-        height: 12rem;
+        height: 10rem;
         margin-top: 0rem;
     }
    

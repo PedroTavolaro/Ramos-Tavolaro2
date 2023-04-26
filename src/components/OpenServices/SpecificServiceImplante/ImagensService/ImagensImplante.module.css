@@ -1,0 +1,277 @@
+.master{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.scrollContainer::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+    background: linear-gradient(to top, #00ccff, #0059ff);
+  }
+
+  .scrollContainer::-webkit-scrollbar{
+      top: 0;
+      right: 0;
+      height: 32px; 
+      background: rgba(8, 2, 65, 0.411);
+  }
+
+  .scrollContainer{
+  width: 190rem;
+  height: 48rem; /* Defina a altura que desejar */
+  overflow-x: scroll; /* Cria a barra de rolagem horizontal */
+  overflow-y: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  
+  }
+
+  .containerPost{
+    
+  }
+
+.controlPosts {
+   display: flex;
+}
+
+.controlImgPost{
+    margin-left: 1.2rem;
+}
+
+.imgPosts {
+    margin-top: 1rem;
+    width: 55rem;
+    height: 44rem;
+}
+.controlImgPost:nth-child(1){
+    margin-left: 0rem;
+}
+
+@media screen and (max-width: 3280px){
+
+  .scrollContainer::-webkit-scrollbar{
+      height: 15px; 
+  }
+
+  .scrollContainer{
+  width: 92rem;
+  height: 27rem; /* Defina a altura que desejar */
+  overflow-x: scroll; /* Cria a barra de rolagem horizontal */
+  overflow-y: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+ 
+  }
+
+
+.controlImgPost{
+    margin-left: 0.5rem;
+}
+
+.imgPosts {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 25rem;
+    height: 24rem;
+}
+.controlImgPost:nth-child(1){
+    margin-left: -1rem;
+}
+
+}
+
+@media screen and (max-width: 1580px){
+
+    .scrollContainer::-webkit-scrollbar-thumb{
+        border-radius: 6px;
+        background: linear-gradient(to top, #00ccff, #0059ff);
+      }
+    
+      .scrollContainer::-webkit-scrollbar{
+        top: 0;
+        right: 0;
+        height: 10px; 
+        background: rgba(8, 2, 65, 0.411);
+      }
+    
+      .scrollContainer{
+      width: 95%;
+      height: 20rem; /* Defina a altura que desejar */
+      overflow-x: scroll; /* Cria a barra de rolagem horizontal */
+      overflow-y: hidden;
+      margin-left: 2rem;
+      margin-top: -1rem;
+      }
+    
+    .controlPosts {
+       display: flex;
+    }
+    
+    .backgroundPostArea{
+        border-radius: 1%;
+        width: 100%;
+        height: 22rem;
+    }
+    
+    .controlImgPost{
+        
+    }
+    
+    .textView{
+        width: 10rem;
+        margin-left: -10.5rem;
+        margin-top: 17rem;
+    }
+    
+    .textView strong {
+        color: white;
+        font-size: 1rem;
+    }
+    
+    .controlPostUnit{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        width: 26rem;
+    }
+    
+    .imgPosts {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: 18rem;
+        height: 18rem;
+    }
+    }
+
+@media screen and (max-width: 1080px){
+    
+    .scrollContainer{
+     margin-left: 1rem;
+      height: 17rem; /* Defina a altura que desejar */
+      }
+    
+    .controlPosts {
+        margin-left: -1rem;
+    }
+
+    .imgPosts {
+        width: 19rem;
+        height: 15rem;
+    }
+
+    .iconSeta{
+        height: 1rem;
+        width: 2rem;
+    }
+}
+
+@media screen and (max-width: 620px){
+  
+    .scrollContainer::-webkit-scrollbar{
+        height: 8px; 
+    }
+
+    .scrollContainer{
+    margin-left: 1rem;
+    height: 14.5rem; /* Defina a altura que desejar */
+    width: 92.5%;  
+    }
+    
+    .controlPosts {
+       
+    }
+
+    .imgPosts {
+        width: 14rem;
+        height: 12.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .iconSeta{
+        height: 1rem;
+        width: 2rem;
+    }
+}
+
+
+
+
+
+.containerSeta{
+    margin-top: 1rem;
+   animation: seta;
+   animation-duration: 2s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+}
+
+@keyframes seta {
+   0%{
+   margin-left: -90%
+   }
+ 
+   100%{
+   margin-left: -80%
+   }
+}
+
+.iconSeta{
+   height: 4rem;
+   width: 6rem;
+}  
+
+
+
+
+@media screen and (max-width: 3280px){
+.containerSeta{
+    margin-top: 1rem;
+
+}
+
+@keyframes seta {
+   0%{
+   margin-left: -90%
+   }
+ 
+   100%{
+   margin-left: -80%
+   }
+}
+
+.iconSeta{
+   height: 2rem;
+   width: 4rem;
+   margin-left: 3rem;
+}  
+
+}
+
+
+@media screen and (max-width: 1520px){
+    .containerSeta{
+        
+    }
+    
+    .iconSeta{
+       height: 1.5rem;
+       width: 3rem;
+       margin-left: 3rem;
+    }  
+    
+    }
+
+
+@media screen and (max-width: 1080px){
+    
+   
+   .iconSeta{
+       height: 1rem;
+       width: 2rem;
+       margin-left: 1rem;
+   }
+}
