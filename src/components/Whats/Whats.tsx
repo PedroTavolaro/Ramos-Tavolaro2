@@ -32,7 +32,10 @@ export function Whats() {
         return(
        
           <div className={styles.whatsContainer}>
-            {shouldAnimate 
+          
+            
+        <a className={styles.containerLogo} href='https://wa.me/5527997762910?text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20melhor%20a%20Ramos%20Tavolaro%20!!!' target='_blank' rel="noreferrer">
+        {shouldAnimate 
             ? 
             <div className={styles.controlWhatsText}>
                   <p className={styles.whatsText}><p className={styles.whatsTextText}>Agende sua consulta</p></p>
@@ -43,7 +46,6 @@ export function Whats() {
             </div>
             }
             
-        <a className={styles.containerLogo} href='https://wa.me/5527997762910?text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20melhor%20a%20Ramos%20Tavolaro%20!!!' target='_blank' rel="noreferrer">
         <Image src={whats} alt='' className={styles.whatsLogo} /> 
         <div className={styles.buttonTop}>
             <div>

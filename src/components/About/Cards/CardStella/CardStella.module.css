@@ -1,22 +1,27 @@
 .descriptionAboutTwo{
     margin-top:  5rem;
-    width: 140rem;
+    width: 170rem;
    align-items: center;
    text-align: center;
    justify-content: center;
    margin-left: auto;
    margin-right: auto;
+   border: 1px solid transparent;
+        background-color: var(--blue-standard);
+        box-shadow: 0rem 0rem 0.5rem 0.5rem rgba(20, 82, 156, 1);
+        height: 72rem;
 }
 
 .teacherTwo {
     display: flex;
     gap: 0.5rem;
-    margin-top:0rem;
+    margin-top:4rem;
     width: 100rem;
-    margin-left: 0%;
+    margin-left: 6rem;
     flex-direction: column;
     text-align: left;
     box-shadow: 2px 3px 8px 4px rgba(20, 82, 156, 1);
+    background-color: rgb(162, 200, 247);
     position: relative;
     margin-bottom: 4rem;
 }
@@ -106,6 +111,10 @@
     font-weight: 800;
     margin-bottom: 15%;
     margin-right: 1rem;
+    box-shadow: 2px 3px 8px 4px rgba(20, 82, 156, 1);
+    background-color: rgb(162, 200, 247);
+    padding: 2rem;
+    margin-left: 4rem;
 }
 
 
@@ -114,7 +123,7 @@
 }
 
 .profileTwo{
-    margin-top: -14rem;
+    margin-top: -28rem;
     width: 50rem;
     height: 45rem;
     margin-left: 0rem;
@@ -124,6 +133,7 @@
     .descriptionAboutTwo{
         margin-top: 5rem;
         width: 94rem;
+        height: 55rem;
     }
 
     .teacherTwo {
@@ -183,6 +193,7 @@
     .profileTwo{
         width: 28rem;
         height: 30rem;
+        margin-top: -20rem;
     }
 
 }
@@ -190,14 +201,16 @@
 @media screen and (max-width: 1520px){
     .descriptionAboutTwo{
         margin-top: 3rem;
-        margin-left: 0rem;
-        width: 100%;
+        width: 68rem;
+        height: auto;
     }
 
     .teacherTwo {
         width: 65%;
         margin-left: 2rem;
         margin-bottom: 2rem;
+        margin-top: 2rem;
+       
     }
 
     .descriptionTeacherContainerTwo{
@@ -206,6 +219,7 @@
 
     .descriptionTeacherText{
         font-size: 1.5rem;
+        
     }
 
     .descriptionTeacherIcon{
@@ -248,25 +262,29 @@
         font-size: 1.2rem;
         width: 65%;
         margin-bottom: 3%;
+        box-shadow: 2px 3px 8px 4px rgba(20, 82, 156, 1);
+        background-color: rgb(162, 200, 247)
     }
     
     .profileTwo{
         width: 22rem;
         height: 20rem;
+        margin-top: -12rem;
     }
 
 }
 
 
-@media screen and (max-width: 620px){
+
+@media screen and (max-width: 1080px){
     .descriptionAboutTwo{
         margin-top: 3rem;
-        margin-left: 0rem;
-        width: 100%;
+        
+        width: 40rem;
     }
 
     .teacherTwo {
-        width: 25rem;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 2rem;
@@ -322,12 +340,95 @@
         margin-left: auto;
         margin-right: auto;
         font-size: 1rem;
-        width: 27rem;
+        width: 90%;
         margin-bottom: 0%;
     }
     
     .profileTwo{
         margin-left: 18rem;
+        margin-right: auto;
+        margin-top: -0.5rem;
+        width: 8rem;
+        height: 8rem;
+    }
+
+}
+
+
+@media screen and (max-width: 620px){
+    .descriptionAboutTwo{
+        margin-top: 1rem;
+        width: 21rem;
+    }
+
+    .teacherTwo {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        position: static;
+    }
+
+    .descriptionTeacherContainerTwo{
+        display: flex;    
+        
+    }
+
+    .descriptionTeacherText{
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        
+      
+    }
+
+    .descriptionTeacherIcon{
+        font-size: 1.5rem;
+    }
+
+    .descriptionTeacherOffice{
+        font-size: 1rem;
+        margin-top: 0.5rem;
+      
+        margin-left: 0rem;
+    }
+    
+    .descriptionTeacherImageSpace{
+       
+    }
+    
+    .descriptionTeacherImage{
+        height: 4.5rem;
+        width: 4.5rem;
+        margin-left: 0.8rem;
+    }
+
+    .textAbout{
+        margin-left: 0.8rem;
+    }
+    
+    .titleAboutProfile{
+        margin-top: 0rem;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+    
+    .controlTextTwo{
+       
+        margin-top:0rem;
+        flex-direction: column;
+    }
+    
+    .descriptionProfileTwo{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1rem;
+        width: 90%;
+        margin-bottom: 0%;
+        padding: 0.4rem;
+    }
+    
+    .profileTwo{
+        margin-left: 13rem;
         margin-right: auto;
         margin-top: -0.5rem;
         width: 8rem;

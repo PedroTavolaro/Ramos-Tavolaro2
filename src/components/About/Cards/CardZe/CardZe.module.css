@@ -1,24 +1,30 @@
 .descriptionAbout{
     margin-top:  5rem;
-    width: 140rem;
-    
+    width: 170rem;
+    border: 1px solid transparent;
     align-items: center;
     text-align: center;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    background-color: var(--blue-standard);
+    box-shadow: 0rem 0rem 0.5rem 0.5rem rgba(20, 82, 156, 1);
+    height: 72rem;
+    
     }
  
  .teacher {
+    
      display: flex;
      gap: 0.5rem;
-     margin-top: 0rem;
+     margin-top: 4rem;
      width: 100rem;
-     margin-left: 40rem;
+     margin-left: 42rem;
      flex-direction: column;
      text-align: left;
      box-shadow: 2px 3px 8px 4px rgba(20, 82, 156, 1);
-     position: relative;
+     background-color: rgb(162, 200, 247);
+     position: static;
      margin-bottom: 4rem;
  }
  
@@ -123,10 +129,13 @@
      font-size: 3rem;
      line-height: 1.5;
      width: 140rem;
-     margin-left: 0%;
+    margin-right: 4rem;
      font-weight: 800;
      margin-bottom: 1rem;
-     margin-left: 1rem;
+     margin-left: -6rem;
+     box-shadow: 2px 3px 8px 4px rgba(20, 82, 156, 1);
+     background-color: rgb(162, 200, 247);
+     padding: 2rem;
  }
 
  .controlTextMobile{
@@ -157,7 +166,7 @@
     .descriptionAbout{
         margin-top: 5rem;
         width: 94rem;
-        
+        height: 55rem;
         }
      
      .teacher {
@@ -171,7 +180,7 @@
      }
      
      .descriptionTeacherText{
-         line-height: 1.25;
+        
          font-size: 2.5rem;
      }
      
@@ -213,7 +222,7 @@
      
      
      .titleAboutProfile{
-         font-size: 1.4rem;
+         font-size: 2.5rem;
      }
      
      .controlText{
@@ -241,15 +250,16 @@
 
     .descriptionAbout{
         margin-top:  2rem;
-        width: 100%;
+        width: 68rem;
+        height: auto;
       
         }
      
      .teacher {
-         width: 70%;
-         margin-left: 18%;
+         width: 65%;
+         margin-left: 25%;
          margin-bottom: 2rem;
-         
+         margin-top: 2rem;
      }
      
      .descriptionTeacherContainer{
@@ -311,7 +321,7 @@
      
      .profile1 {
         
-        margin-top: -5rem;
+        margin-top: -14rem;
         width: 22rem;
         height: 20rem;
         margin-left: -2rem;
@@ -320,8 +330,8 @@
      .descriptionProfile{
     
          font-size: 1.2rem;
-         width: 70%;
-         margin-left: 0rem;
+         width: 65%;
+         margin-left: -3rem;
      }
 
     
@@ -329,113 +339,180 @@
  }
 
  
- @media screen and (max-width: 620px){
-
+@media screen and (max-width: 1080px){
     .descriptionAbout{
-        margin-top:  1rem;
-        width: 100%;
+        margin-top: 3rem;
+        
+        width: 40rem;
     }
-     
-     .teacher {
-         width: 25rem;
-         margin-left: auto;
-         margin-right: auto;
-         margin-bottom: 2rem;    
-     }
-     
-     .descriptionTeacherContainer{
-         margin-top: 0rem;
-     }
-     
-     .descriptionTeacherText{
-         line-height: 1.25;
-         font-size: 1.2rem;
-         margin-top: 0.5rem;
-     }
-     
-     .descriptionTeacherIcon{
-         font-size: 1.5rem;
-     }
-     
-     
-     .descriptionTeacherName{
-       
-       
-     }
-     
-     .descriptionTeacherOffice{
-         font-size: 1.2rem;
-     }
-    
-     .descriptionTeacherContainerInfo{
-        display: flex;    
-    }
-     
-     .descriptionTeacherImageContainer{
-         
-     }
-     
-     .descriptionTeacherImageSpace{
-   
-     }
-     
-     .descriptionTeacherImage{
-         height: 4.5rem;
-         width: 4.5rem;
-     }
-     
-     .textAbout{
-      
-     }
-     
-     
-     .titleAboutProfile{
-         font-size: 1.2rem;
-         
-     }
-     
-     .controlText{
-        flex-direction: column;
-        width: 0%;
-        height: 0rem;
-     }
-     
-     .profile1 {
-        height: 0rem;
-        width: 0rem;
-        visibility: hidden;
-        margin-top: 0rem;
-    }
-     
-     .descriptionProfile{
-         font-size: 1.1rem;
-         width: 0%;
-         margin-top: -0rem;
-         margin-left: 0rem;
-         visibility: hidden;
-     }
 
-     .controlTextMobile{
-        height: 10rem;
-        margin-top: 0rem;
-        width: 26rem;
-        visibility: visible;
+    .teacher {
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
-     }
+        margin-bottom: 2rem;
+        
+    }
 
-     .descriptionProfileMobile{
-        font-size: 1rem;
-        margin-top: -0rem;
-        font-weight: 800;
+    .descriptionTeacherContainer{
+        display: flex;    
+        
+    }
+
+    .descriptionTeacherText{
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+
+    .descriptionTeacherIcon{
+        font-size: 1.5rem;
+    }
+    
+
+    .descriptionTeacherOffice{
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+    
+    .descriptionTeacherImageSpace{
+       
+    }
+    
+    .descriptionTeacherImage{
+        height: 4.5rem;
+        width: 4.5rem;
+        margin-left: 0.8rem;
+    }
+
+    .textAbout{
+        margin-left: 0.8rem;
+    }
+    
+    .titleAboutProfile{
+        margin-top: 0rem;
+        font-size: 1.2rem;
         line-height: 1.5;
-     }
+    }
+    
+    .controlText{
+       
+        margin-top:0rem;
+        flex-direction: column;
+    }
+    
+    .descriptionProfile{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1rem;
+        width: 90%;
+        margin-bottom: 0%;
+    }
+    
+    .profile1{
+        margin-top: -0.5rem;
+        visibility: hidden;
+        width: 0rem;
+        height: 0rem;
+    }
+
 
      .profileMobile{
         margin-top: 0rem;
         width: 8rem;
         height: 8rem;
+        margin-left: -20rem;
+        visibility: visible;
+     }
+
+
+}
+ 
+ @media screen and (max-width: 620px){
+    .descriptionAbout{
+        margin-top: 1rem;
+        width: 21rem;
+    }
+
+    .teacher {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        position: static;
+    }
+
+    .descriptionTeacherContainer{
+        display: flex;    
+        
+    }
+
+    .descriptionTeacherText{
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+
+    .descriptionTeacherIcon{
+        font-size: 1.5rem;
+    }
+    
+
+    .descriptionTeacherOffice{
+        font-size: 1rem;
+        margin-top: 0.5rem;
         margin-left: 0rem;
+    }
+    
+    .descriptionTeacherImageSpace{
+       
+    }
+    
+    .descriptionTeacherImage{
+        height: 4.5rem;
+        width: 4.5rem;
+        margin-left: 0.8rem;
+    }
+
+    .textAbout{
+        margin-left: 0.8rem;
+    }
+    
+    .titleAboutProfile{
+        margin-top: 0rem;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+    
+    .controlText{
+       
+        margin-top:0rem;
+        flex-direction: column;
+    }
+    
+    .descriptionProfile{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1rem;
+        width: 90%;
+        margin-bottom: 0%;
+        margin-top: 0.5rem;
+        padding: 0.4rem;
+        
+    }
+    
+    .profile1{
+        margin-top: -0.5rem;
+        visibility: hidden;
+        width: 0rem;
+        height: 0rem;
+    }
+
+
+     .profileMobile{
+        margin-top: 0rem;
+        width: 8rem;
+        height: 8rem;
+        margin-left: -14rem;
+        visibility: visible;
      }
 
  }

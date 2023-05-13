@@ -10,9 +10,16 @@ h1{
     margin-top: 6rem;
 }
 
-@media screen and (max-width: 620px){
+@media screen and (max-width: 3280px){
     h1{
-       font-size: 1.2rem;
+       font-size: 4rem;
+       margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 1520px){
+    h1{
+       font-size: 3rem;
        margin-top: 2rem;
     }
 }
@@ -24,19 +31,18 @@ h1{
     }
 }
 
-@media screen and (max-width: 1520px){
+@media screen and (max-width: 620px){
     h1{
-       font-size: 3rem;
+       font-size: 1.5rem;
        margin-top: 2rem;
     }
 }
 
-@media screen and (max-width: 3280px){
-    h1{
-       font-size: 4rem;
-       margin-top: 4rem;
-    }
-}
+
+
+
+
+
 
 :root {
     --white:#fff;

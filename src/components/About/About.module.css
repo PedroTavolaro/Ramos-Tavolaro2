@@ -93,3 +93,12 @@
     }
    
 }
+
+
+@media screen and (max-width: 620px){
+    .titleAbout h1{
+        font-size: 1.2rem;
+        
+    }
+   
+}

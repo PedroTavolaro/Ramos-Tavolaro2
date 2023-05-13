@@ -92,7 +92,7 @@
 }
 
 .imgLocation{
-    width: 60%;
+    width: 90rem;
     height: 35rem;
 }
 }
@@ -114,7 +114,7 @@
 }
 
 .imgLocation{
-    width: 70%;
+    width: 70rem;
     height: 22rem;
 }
 }
@@ -135,9 +135,13 @@
     }
 
     .imgLocation{
-        width: 90%;
+        width: 42rem;
         height: 20rem;
     }
     
 }
-
+@media screen and (max-width: 620px){
+    .imgLocation{
+        width: 22rem;
+    }
+}

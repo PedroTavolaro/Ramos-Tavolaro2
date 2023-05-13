@@ -458,7 +458,7 @@
     }
     
     .imgAboutProfile {
-        height: 55rem;
+        height: 45rem;
     }
     
     .title{
@@ -475,8 +475,8 @@
     }
     
     .videosSelected iframe {   
-        max-width: 920px;
-        max-height: 85vh;
+        max-width: 960px;
+        max-height: 88vh;
     }
     
     .videosArea{
@@ -509,7 +509,7 @@
       }
     
     .scrollContainer{
-      width: 80%;
+      width: 70rem;
       height: 18rem; /* Defina a altura que desejar */
       margin-top: 0rem;
       }
@@ -625,9 +625,9 @@
     
     .recommendationArea {
         display: flex;
-        width: 95%;
+        width: 70rem;
         height: 22rem;
-        margin-left: 2rem;
+        
         
     }
     
@@ -657,22 +657,20 @@
 
 @media screen and (max-width: 1080px){
     .containerVideos{
-        margin-top: -12rem;
+        margin-top: -14rem;
     }
     
     .imgAboutProfile {
-        margin-top: -0rem;
+        margin-top: 4rem;
         width: 100%;
-        height: 45rem;
+        height: 40rem;
     }
 
     .title{
         margin-bottom: 1.5rem;
     }
     .titleTwo{
-        text-align: center;
-        font-size: 0.8rem;
-        margin-top: -3rem;
+       
     }
     
     .title h1{
@@ -682,7 +680,7 @@
     .videosSelected{}
     
     .videosSelected iframe {
-        width: 99%;
+        width: 42rem;
         height: 22rem;
     }
     
@@ -700,8 +698,8 @@
         
     }
     .scrollContainer{
-        width: 98%;
-        margin-left: 0.5rem;
+        width: 42rem;
+        
         height: 18.7rem;
     }
     
@@ -756,8 +754,7 @@
     }
     
     .recommendationArea {
-        margin-left: 0.5rem;
-        width: 98%;
+        width: 42rem;
     }
     
     .controlRecommendationArea {
@@ -781,4 +778,18 @@
     
     
 
+}
+
+@media screen and (max-width: 620px){
+    .videosSelected iframe{
+        width: 22rem;
+    }
+
+    .scrollContainer{
+        width: 22rem;
+    }
+
+    .recommendationArea {
+        width: 22rem;
+    }
 }

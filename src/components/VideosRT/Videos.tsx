@@ -311,9 +311,7 @@ export const Videos: React.FC<ScrollContainerProps> = ({
       
 
       <div className={styles.containerVideosTwo}>
-        <div className={styles.titleTwo}>
-          <h1>RECOMENDAÇÕES</h1>
-        </div>
+        <h1 className={styles.titleTwo}>RECOMENDAÇÕES</h1>
 
         <div className={styles.recommendationArea}>
           <div

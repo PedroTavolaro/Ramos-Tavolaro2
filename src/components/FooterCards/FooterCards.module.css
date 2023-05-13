@@ -1,5 +1,7 @@
 .controlFooterCard{
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .controlAbout{
@@ -39,8 +41,8 @@
 @media screen and (max-width: 3280px){
 .controlAbout{
     display: flex;
-    justify-content: space-between;
-    width: 90%;
+
+   
 }
 
 .containerAbout{
@@ -48,7 +50,7 @@
     display: flex;
     margin-left: 1rem;
     align-items: center;
-    margin-left: 4%;
+    margin-left: 60rem;
 }
 .containerAbout div {
     display: flex;
@@ -68,44 +70,66 @@
 
 }
 
-@media screen and (max-width: 1520px){
+@media screen and (max-width: 1580px){
     .controlAbout{
         display: flex;
-        justify-content: space-between;
-        width: 92%;
+        
+        width: 68rem;
+        
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .containerAbout{
         margin-top: 1rem;
-        display: flex;
-        margin-left: 1rem;
-        align-items: center;
-        margin-left: 4%;
     }
     .containerAbout div {
-        display: flex;
-        align-items: center;
+     
     }
     
     .iconInsta{
         height: 2rem;
         width: 2rem;
-        margin-right: 0.5rem;
-        margin-left: 0rem;
+       margin-left: -14rem;
     }
     .redeSocialText{
         font-size: 1.5rem;
     }
     }
 
-    @media screen and (max-width: 620px){
+    @media screen and (max-width: 1080px){
         .controlAbout{
-            width: 98%;
+            width: 41rem;
         }
         
         .containerAbout{
             margin-top: 1rem;
-            margin-left: 0%;
+            margin-left: 28rem;
+        }
+        .containerAbout div {
+        }
+        
+        .iconInsta{
+            height: 1.2rem;
+            width: 1.2rem;
+            margin-right: 0.5rem;
+            margin-left: 0rem;
+        }
+        .redeSocialText{
+            font-size: 0.9rem;
+        }
+        }
+
+    @media screen and (max-width: 620px){
+        .controlAbout{
+            width: 21.5rem;
+            
+        }
+        
+        .containerAbout{
+            margin-top: 1rem;
+            
+            margin-left: 9rem;
         }
         .containerAbout div {
         }

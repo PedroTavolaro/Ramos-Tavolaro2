@@ -47,13 +47,13 @@ export function About(){
         </div>
 
         <div className={styles1.controlImgBackgroundOne}>
-            <Image src={vector} alt="" className={styles1.imgAboutProfileOne} />
+           
           </div>
            
         <CardStella />
         
         <div className={styles1.controlImgBackgroundTwo}>
-            <Image src={vector3} alt="" className={styles1.imgAboutProfileThree} />
+            
         </div>
 
         <CardZe />

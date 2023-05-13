@@ -6,12 +6,14 @@
 .containerFooter {
     height: 52rem;
     margin-top: 8rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: 22% 50% 30%;
     width: 190rem;
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 
@@ -19,19 +21,16 @@
 .title {
     margin-top: 2rem;
     font-size: 5rem;
-    margin-left: 1rem;
+    margin-left: 0rem;
 }
 
-.titleOne{
-    font-size: 2rem;
-    margin-left: 4rem;
-}
+
 
 .containerMenu{
     display: grid;
     line-height: 2.4;
-    margin-left: 4rem;
-    width: 35rem;
+   
+
     margin-top: 1.3rem;
 }
 
@@ -58,6 +57,7 @@
 
 .iconAbout{
     margin-right: 0.5rem;
+    font-size: 4rem;
 }
 
 .iconAbout:nth-child(2){
@@ -89,37 +89,36 @@
 .containerFooter {
     height: 25rem;
     margin-top: 6rem;
-    width: 100%;
+    width:  90rem;
+
+    grid-template-columns: 26% 52% 30%;
 }
 
 .title {
     font-size: 2rem;
-    margin-left: 1rem;
-}
-
-.titleOne{
-    font-size: 2rem;
-    margin-left: 4rem;
+    margin-left: 0rem;
 }
 
 .containerMenu{
     line-height: 1.8;
-    margin-left: 4rem;
-    width: 24rem;
-    margin-top: 1rem;
-    
+ 
+    margin-top: 1rem; 
 }
 
 .containerMenu strong{
     font-size: 1.6rem;
+    
 }
 
 .controlFooter {
-    margin-left: 4rem;
+    margin-left: 0rem;
     margin-top: 2rem;
+  
+    
 }
 .controlAbout{
-    width: 30rem;
+  
+    
 }
 
 .containerAbout{
@@ -167,7 +166,9 @@
     .containerFooter {
         height: 25rem;
         margin-top: 6rem;
-        width: 100%;
+        width: 70rem;
+     
+        grid-template-columns: 25% 45% 25%;
     }
     
     .title {
@@ -182,7 +183,7 @@
     
     .containerMenu{
         line-height: 1.8;
-        margin-left: 1rem;
+        margin-left: 0rem;
         width: 15rem;
         margin-top: 1rem;
         
@@ -193,11 +194,11 @@
     }
     
     .controlFooter {
-        margin-left: 4rem;
+        margin-left: 0rem;
         margin-top: 2rem;
     }
     .controlAbout{
-        width: 15rem;
+        
     }
     
     .containerAbout{
@@ -246,14 +247,19 @@
         height: 26rem;
         margin-top: 1.5rem;
         display: grid;
-        gap: 0rem;
+     
+       width: 40rem;
+        grid-template-columns: 20rem;
+        justify-content: center;
+        text-align: center;
     }
     
     .controlFooter {
-        width: 100%;
+       
         margin-top: 1rem;
-        margin-left: 0rem;
-        
+        width: 25rem;
+        margin-left: -1rem;
+      
     }
     .controlFooter:nth-child(3){
         
@@ -266,15 +272,11 @@
         margin-top: 0rem;
     }
     
-    .titleOne{
-        font-size: 1rem;
-        margin-left: 0rem;
-    }
+  
     
     .containerMenu{
         display: grid;
-        grid-template-columns: 40% 55% 40%;
-        margin-left: 0rem;
+        grid-template-columns: 50% 55% 55%;
         margin-top: 1rem;    
     }
 
@@ -283,13 +285,17 @@
     }
 
     .controlAbout{
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 64% 0%;
         align-items: center;
         width: 90%;
+        margin-left: 1rem;
+       
+       
     }
     
     .containerAbout{
+        
         line-height: 1;
     }
     
@@ -308,6 +314,88 @@
     
     .containerAbout p {
         font-size: 0.8rem;
+        
+    }
+    
+    .redeSocialText{
+        font-size: 0.8rem;
+  
+    }
+    
+    .iconInsta{
+        height: 1.7rem;
+        width: 1.7rem;
+        margin-right: 0.5rem;
+    }
+}
+
+
+@media screen and (max-width: 620px){
+    .containerFooter {
+        height: 26rem;
+        margin-top: 1.5rem;
+        display: grid;
+        width: 0rem;
+        grid-template-columns: 20rem;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+    .controlFooter {
+        margin-top: 1rem;
+        width: 21.5rem;
+        
+    }
+
+    .controlFooter:nth-child(3){
+        height: 5rem;
+    }
+    
+    .title {
+        font-size: 1.2rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+    
+    .containerMenu{
+        display: grid;
+        grid-template-columns: 45% 50% 55%;
+        margin-top: 1rem;    
+    }
+
+    .containerMenu strong {
+        font-size: 0.8rem;
+    }
+
+    .controlAbout{
+        display: grid;
+        grid-template-columns: 50% 0%;
+        align-items: center;
+        width: 90%;
+        margin-left: 1.5rem;
+    }
+    
+    .containerAbout{
+        line-height: 1;
+    }
+    
+    .iconAbout{
+     font-size: 1rem;
+    }
+    
+    .iconAbout:nth-child(2){
+        
+      
+    }
+    
+    .aboutText {
+        font-size: 0.9rem;
+    }
+    
+    .containerAbout p {
+        font-size: 0.8rem;
+        
     }
     
     .redeSocialText{

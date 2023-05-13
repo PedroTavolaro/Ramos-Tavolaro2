@@ -68,9 +68,9 @@ export function CardZe() {
             É especialista em implantodontia, área pela qual se apaixonou e se dedica a estar em constante evolução, com objetivo de proporcionar
             a melhor experiencia possível ao seus pacientes, além de oferecer os mais inovadores e avançados tratamentos.
             </p>
-            <Image src={ze} alt="" className={styles1.profileMobile} />  
+            
           </div>
-        
+          <Image src={ze} alt="" className={styles1.profileMobile} />  
         </div>
     )
 }

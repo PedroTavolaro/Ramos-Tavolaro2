@@ -261,7 +261,7 @@
     .containerEbookScroll{
         margin-top: 2rem;
         overflow-x: scroll;
-        width: 95%;
+        width: 68rem;
         
         background-color: #BFDDFF;
     }
@@ -338,11 +338,12 @@
     .containerEbookScroll{
         height: 20rem;
         display: flex;
-        margin-left: 0.8rem;
+        width: 42rem;
     }
     .controlEbook {
         display: flex;
         height: 18rem;
+        margin-left: -1.2rem;
     }
 
     .backgroundEbook{
@@ -402,7 +403,7 @@
     }
 
     .viewEbook{
-        margin-top: 1rem;
+        margin-top: 0rem;
         margin-left: 32%;
         height: 2rem;
         
@@ -422,10 +423,12 @@
     
     .containerEbookScroll{
         height: 20rem;
-        margin-left: 0.8rem;
+        
+        width: 22rem;
     }
     .controlEbook {
         height: 18rem;
+        margin-left: 0rem;
     }
 
     .backgroundEbook{

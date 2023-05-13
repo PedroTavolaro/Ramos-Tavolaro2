@@ -1,8 +1,8 @@
 import styles from './Master.module.css'
 import Image from "next/image";
-import implante from "../../../../assets/servicos/implante.png";
+import implante from "../../../../assets/servicos/implante1.png";
 
-import implanteebook from "../../../../assets/ebook/Ebook1.png";
+import implanteebook from "../../../../assets/servicos/implante1.png";
 import logo from "../../../../assets/header/logo.png";
 
 import { StaticImageData } from "next/image";
@@ -60,13 +60,16 @@ export function MasterImplante(){
                     <div className={styles.controlImg}>
                         <Image src={implante} alt="" className={styles.imgService} />
                     </div>
-
+                    
                     <div className={styles.controlTextTwo}>
-                        <strong className={styles.text}>APARELHOS</strong>
+                        <div className={styles.controlTextIntro}></div>
+                        <strong className={styles.text}>IMPLANTES</strong>
                     </div>
                     
                         
               <div className={styles.ebook}>
+
+                <div className={styles.degrade}></div>
                <div className={styles.controlImgEbook}>
                <Image src={implanteebook} alt='' className={styles.ebookImage}/>
                </div>

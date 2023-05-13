@@ -27,17 +27,25 @@
   @media screen and (max-width: 1580px){
 
     .sandbox {
-      max-width: 92%;
+      max-width: 70rem;
       
     }
   }
 
   
-  
   @media screen and (max-width: 1080px){
 
     .sandbox {
-      max-width: 100%;
+      max-width: 42rem;
+      
+    }
+  }
+
+
+  @media screen and (max-width: 620px){
+
+    .sandbox {
+      max-width: 24rem;
       
     }
   }
